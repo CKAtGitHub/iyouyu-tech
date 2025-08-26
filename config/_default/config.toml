@@ -1,7 +1,7 @@
 # Change baseurl before deploy
 baseurl = "https://www.iyouyu.tech"
 languageCode = "en-us"
-title = "森林有鱼"
+title = "IYouYu AI & Drama Story"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
