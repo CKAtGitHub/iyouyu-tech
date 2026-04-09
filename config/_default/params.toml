@@ -6,15 +6,15 @@ favicon = "/favicon.png"
 
 [footer]
 since = 2025
-customText = ""
+customText = "森林有鱼（深圳）科技有限公司"
 
 [dateFormat]
-published = "Jan 02, 2006"
-lastUpdated = "Jan 02, 2006 15:04 MST"
+published = "2006年01月02日"
+lastUpdated = "2006年01月02日 15:04 MST"
 
 [sidebar]
 emoji = ""
-subtitle = "We are the engineers of the future."
+subtitle = "AI赋能，智启未来"
 
 [sidebar.avatar]
 enabled = true

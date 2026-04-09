@@ -1,15 +1,14 @@
 ---
-title: Links
+title: 友情链接
 links:
-  - title: DramaStory
-    description: Write your own story,turn it into a drama
-    website: https://scriptscoop.iyouyu.tech
-    image: https://scriptscoop.iyouyu.tech/favicon.ico
+  - title: 有鱼智界
+    description: AI员工平台，智能办公新体验
+    website: https://zhijie.iyouyu.tech
+    image: https://zhijie.iyouyu.tech/favicon.ico
 menu:
     main: 
         weight: 4
         params:
             icon: link
-
 comments: false
 ---
