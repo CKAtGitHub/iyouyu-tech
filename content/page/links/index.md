@@ -4,7 +4,7 @@ links:
   - title: 有鱼智界
     description: AI员工平台，智能办公新体验
     website: https://zhijie.iyouyu.tech
-    image: https://zhijie.iyouyu.tech/favicon.ico
+    image: https://zhijie.iyouyu.tech/favicon.png
 menu:
     main: 
         weight: 4
