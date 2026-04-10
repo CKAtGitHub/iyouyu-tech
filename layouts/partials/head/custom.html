@@ -1,0 +1,76 @@
+<!-- SEO Meta Tags -->
+<meta name="author" content="森林有鱼">
+<meta property="og:locale" content="zh_CN">
+
+<!-- Keywords: 文章页用 tags，其他页面用全站默认关键词 -->
+{{ if .Params.tags }}
+<meta name="keywords" content="{{ delimit .Params.tags ", " }}">
+{{ else }}
+<meta name="keywords" content="有鱼智界,有鱼,森林有鱼,IYouYu,YouYuZhiJie,AI员工,AI Agent,智能办公">
+{{ end }}
+
+<!-- JSON-LD Organization Schema（所有页面） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "森林有鱼（深圳）科技有限公司",
+  "alternateName": ["有鱼智界", "IYouYu", "YouYuZhiJie", "森林有鱼"],
+  "url": "https://www.iyouyu.tech",
+  "logo": "https://www.iyouyu.tech/favicon.png",
+  "description": "有鱼智界是森林有鱼旗下AI智能平台，提供AI员工、AI Agent等智能办公解决方案",
+  "sameAs": [
+    "https://zhijie.iyouyu.tech/"
+  ]
+}
+</script>
+
+<!-- JSON-LD WebSite Schema（仅首页） -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "有鱼智界 | 森林有鱼",
+  "alternateName": ["YouYuZhiJie", "IYouYu"],
+  "url": "https://www.iyouyu.tech",
+  "description": "有鱼智界是森林有鱼旗下AI智能平台，提供AI员工、AI Agent等智能办公解决方案，AI赋能，智启未来",
+  "publisher": {
+    "@type": "Organization",
+    "name": "森林有鱼（深圳）科技有限公司"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.iyouyu.tech/search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{ end }}
+
+<!-- JSON-LD BlogPosting Schema（文章页） -->
+{{ if and (eq .Section "post") .IsPage }}
+{{ $author := dict "@type" "Organization" "name" "森林有鱼" "url" "https://www.iyouyu.tech" }}
+{{ $logo := dict "@type" "ImageObject" "url" "https://www.iyouyu.tech/favicon.png" }}
+{{ $publisher := dict "@type" "Organization" "name" "森林有鱼（深圳）科技有限公司" "logo" $logo }}
+{{ $mainEntity := dict "@type" "WebPage" "@id" .Permalink }}
+{{ $desc := .Description | default (.Summary | plainify | truncate 160) }}
+{{ $keywords := "有鱼智界,AI" }}
+{{ if .Params.tags }}{{ $keywords = (delimit .Params.tags ", ") }}{{ end }}
+{{ $blogPosting := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "description" $desc "url" .Permalink "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "author" $author "publisher" $publisher "mainEntityOfPage" $mainEntity "keywords" $keywords }}
+{{ with .Params.image }}{{ $blogPosting = merge $blogPosting (dict "image" .) }}{{ end }}
+{{ $blogPostingJSON := $blogPosting | jsonify }}
+{{ printf "<script type=\"application/ld+json\">\n%s\n</script>" $blogPostingJSON | safeHTML }}
+{{ end }}
+
+<!-- JSON-LD BreadcrumbList Schema（文章页） -->
+{{ if and (eq .Section "post") .IsPage }}
+{{ $items := slice (dict "@type" "ListItem" "position" 1 "name" "首页" "item" "https://www.iyouyu.tech/") }}
+{{ with index .Params.categories 0 }}
+{{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" . "item" (printf "https://www.iyouyu.tech/categories/%s/" (. | urlize))) }}
+{{ end }}
+{{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" $.Title) }}
+{{ $breadcrumb := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items }}
+{{ $breadcrumbJSON := $breadcrumb | jsonify }}
+{{ printf "<script type=\"application/ld+json\">\n%s\n</script>" $breadcrumbJSON | safeHTML }}
+{{ end }}

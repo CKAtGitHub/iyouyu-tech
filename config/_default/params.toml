@@ -1,8 +1,13 @@
+keywords = ["有鱼智界", "有鱼", "森林有鱼", "IYouYu", "YouYuZhiJie", "AI员工", "AI Agent", "智能办公"]
+
 # Pages placed under these sections will be shown on homepage and archive page.
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
 favicon = "/favicon.png"
+
+[author]
+    name = "森林有鱼"
 
 [footer]
 since = 2025
@@ -14,7 +19,7 @@ lastUpdated = "2006年01月02日 15:04 MST"
 
 [sidebar]
 emoji = ""
-subtitle = "AI赋能，智启未来"
+subtitle = "有鱼智界(YouYuZhiJie) - AI赋能，智启未来 | 森林有鱼(IYouYu)"
 
 [sidebar.avatar]
 enabled = true

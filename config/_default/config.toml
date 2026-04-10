@@ -1,8 +1,10 @@
 baseurl = "https://www.iyouyu.tech"
 languageCode = "zh-cn"
 title = "有鱼智界 | 森林有鱼"
+description = "有鱼智界(YouYuZhiJie)是森林有鱼(IYouYu)旗下AI智能平台，提供AI员工、AI Agent等智能办公解决方案，AI赋能，智启未来"
 defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
+enableRobotsTXT = true
 
 # 评论系统
 disqusShortname = ""
