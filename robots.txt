@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /page/
+
+Sitemap: https://www.iyouyu.tech/sitemap.xml

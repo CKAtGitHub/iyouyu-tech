@@ -1,0 +1,256 @@
+<!doctype html><html lang=zh-cn dir=ltr><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><meta name=description content="Claude Code直接在终端中运行，能自主编写代码、运行测试、提交PR。它正在成为越来越多资深开发者的首选AI编程工具。"><title>Claude Code：Anthropic打造的终端AI编程神器</title><link rel=canonical href=https://www.iyouyu.tech/p/claude-code/><link rel=stylesheet href=/scss/style.min.86591c898bd806857815fbb8c47e8d3fed97c133b78e83d9bfc27b164dd0aa2b.css><meta property='og:title' content="Claude Code：Anthropic打造的终端AI编程神器"><meta property='og:description' content="Claude Code直接在终端中运行，能自主编写代码、运行测试、提交PR。它正在成为越来越多资深开发者的首选AI编程工具。"><meta property='og:url' content='https://www.iyouyu.tech/p/claude-code/'><meta property='og:site_name' content='有鱼智界 | 森林有鱼'><meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='Claude'><meta property='article:tag' content='Anthropic'><meta property='article:tag' content='AI编程'><meta property='article:tag' content='终端工具'><meta property='article:tag' content='代码生成'><meta property='article:published_time' content='2026-04-03T00:00:00+00:00'><meta property='article:modified_time' content='2026-04-03T00:00:00+00:00'><meta property='og:image' content='https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&amp;h=600&amp;fit=crop&amp;crop=center'><meta name=twitter:title content="Claude Code：Anthropic打造的终端AI编程神器"><meta name=twitter:description content="Claude Code直接在终端中运行，能自主编写代码、运行测试、提交PR。它正在成为越来越多资深开发者的首选AI编程工具。"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content='https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&amp;h=600&amp;fit=crop&amp;crop=center'><link rel="shortcut icon" href=/favicon.png><meta name=author content="森林有鱼"><meta property="og:locale" content="zh_CN"><meta name=keywords content="Claude,Anthropic,AI编程,终端工具,代码生成"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"森林有鱼（深圳）科技有限公司","alternateName":["有鱼智界","IYouYu","YouYuZhiJie","森林有鱼"],"url":"https://www.iyouyu.tech","logo":"https://www.iyouyu.tech/favicon.png","description":"有鱼智界是森林有鱼旗下AI智能平台，提供AI员工、AI Agent等智能办公解决方案","sameAs":["https://zhijie.iyouyu.tech/"]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Organization","name":"森林有鱼","url":"https://www.iyouyu.tech"},"dateModified":"2026-04-03T00:00:00Z","datePublished":"2026-04-03T00:00:00Z","description":"Claude Code直接在终端中运行，能自主编写代码、运行测试、提交PR。它正在成为越来越多资深开发者的首选AI编程工具。","headline":"Claude Code：Anthropic打造的终端AI编程神器","image":"https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800\u0026h=600\u0026fit=crop\u0026crop=center","keywords":"Claude, Anthropic, AI编程, 终端工具, 代码生成","mainEntityOfPage":{"@id":"https://www.iyouyu.tech/p/claude-code/","@type":"WebPage"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.iyouyu.tech/favicon.png"},"name":"森林有鱼（深圳）科技有限公司"},"url":"https://www.iyouyu.tech/p/claude-code/"}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://www.iyouyu.tech/","name":"首页","position":1},{"@type":"ListItem","item":"https://www.iyouyu.tech/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/","name":"人工智能","position":2},{"@type":"ListItem","name":"Claude Code：Anthropic打造的终端AI编程神器","position":3}]}</script></head><body class=article-page><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky"><button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label=切换菜单>
+<span class=hamburger-box><span class=hamburger-inner></span></span></button><header><figure class=site-avatar><a href=/><img src=/img/avatar_hu_1c880a55fe429e7f.png width=300 height=300 class=site-logo loading=lazy alt=Avatar></a></figure><div class=site-meta><h1 class=site-name><a href=/>有鱼智界 | 森林有鱼</a></h1><h2 class=site-description>有鱼智界(YouYuZhiJie) - AI赋能，智启未来 | 森林有鱼(IYouYu)</h2></div></header><ol class=menu id=main-menu><li><a href=/><svg class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg>
+<span>Home</span></a></li><li><a href=/archives/><svg class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+<span>归档</span></a></li><li><a href=/search/><svg class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg>
+<span>搜索</span></a></li><li><a href=/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/><svg class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M10 14a3.5 3.5.0 005 0l4-4a3.5 3.5.0 00-5-5l-.5.5"/><path d="M14 10a3.5 3.5.0 00-5 0l-4 4a3.5 3.5.0 005 5l.5-.5"/></svg>
+<span>友情链接</span></a></li><li class=menu-bottom-section><ol class=menu><li id=dark-mode-toggle><svg class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<svg class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<span>暗色模式</span></li></ol></li></ol></aside><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">目录</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#一个开发者的疯狂周五>一个开发者的疯狂周五</a></li><li><a href=#claude-code是什么>Claude Code是什么？</a></li><li><a href=#它和cursorcopilot有什么不同>它和Cursor、Copilot有什么不同？</a></li><li><a href=#核心能力它到底能做什么>核心能力：它到底能做什么？</a><ol><li><a href=#1-完全自主编码>1. 完全自主编码</a></li><li><a href=#2-自动测试和修bug>2. 自动测试和修Bug</a></li><li><a href=#3-代码审查和重构>3. 代码审查和重构</a></li><li><a href=#4-git操作和pr创建>4. Git操作和PR创建</a></li><li><a href=#5-项目理解和导航>5. 项目理解和导航</a></li></ol></li><li><a href=#claude-4-opussonnet编程能力有多强>Claude 4 Opus/Sonnet：编程能力有多强？</a><ol><li><a href=#在主流编程基准测试中的表现>在主流编程基准测试中的表现：</a></li></ol></li><li><a href=#使用方式和计费模式>使用方式和计费模式</a><ol><li><a href=#安装>安装</a></li><li><a href=#计费>计费</a></li></ol></li><li><a href=#实际工作流展示>实际工作流展示</a><ol><li><a href=#场景给现有项目添加一个新功能>场景：给现有项目添加一个新功能</a></li></ol></li><li><a href=#适合哪类开发者>适合哪类开发者？</a><ol><li><a href=#-非常适合>✅ 非常适合：</a></li><li><a href=#-不太适合>❌ 不太适合：</a></li></ol></li><li><a href=#竞品对比>竞品对比</a></li><li><a href=#最佳实践和使用技巧>最佳实践和使用技巧</a><ol><li><a href=#1-先让ai了解项目>1. 先让AI了解项目</a></li><li><a href=#2-需求描述要清晰>2. 需求描述要清晰</a></li><li><a href=#3-分步骤推进复杂任务>3. 分步骤推进复杂任务</a></li><li><a href=#4-及时审查ai的代码>4. 及时审查AI的代码</a></li><li><a href=#5-善用claudemd配置文件>5. 善用CLAUDE.md配置文件</a></li><li><a href=#6-使用compact压缩上下文>6. 使用<code>/compact</code>压缩上下文</a></li></ol></li><li><a href=#上手教程5分钟开始使用>上手教程：5分钟开始使用</a><ol><li><a href=#前置条件>前置条件</a></li><li><a href=#步骤1安装>步骤1：安装</a></li><li><a href=#步骤2认证>步骤2：认证</a></li><li><a href=#步骤3进入项目开始使用>步骤3：进入项目开始使用</a></li><li><a href=#步骤4开始对话>步骤4：开始对话</a></li></ol></li><li><a href=#写在最后>写在最后</a></li></ol></nav></div></section></aside><main class="main full-width"><article class="has-image main-article"><header class=article-header><div class=article-image><a href=/p/claude-code/><img src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&amp;h=600&amp;fit=crop&amp;crop=center" loading=lazy alt="Featured image of post Claude Code：Anthropic打造的终端AI编程神器"></a></div><div class=article-details><header class=article-category><a href=/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ style=background-color:#d9beef;color:#290f3d>人工智能
+</a><a href=/categories/%E6%8A%80%E6%9C%AF%E5%89%8D%E6%B2%BF/ style=background-color:#efbee5;color:#3d0f34>技术前沿</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/p/claude-code/>Claude Code：Anthropic打造的终端AI编程神器</a></h2><h3 class=article-subtitle>Claude Code直接在终端中运行，能自主编写代码、运行测试、提交PR。它正在成为越来越多资深开发者的首选AI编程工具。</h3></div><footer class=article-time><div><svg class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published datetime=2026-04-03T00:00:00Z>2026年04月03日</time></div><div><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>阅读时长: 9 分钟</time></div></footer></div></header><section class=article-content><h2 id=一个开发者的疯狂周五>一个开发者的疯狂周五</h2><p>朋友老张是一个十年经验的后端工程师，上周五晚上他跟我说要做一个"能自动抓取和分析竞品价格的小工具"。我以为他至少要花一个周末。</p><p>结果第二天早上他发消息：<strong>&ldquo;昨晚搞定了。Claude Code太猛了。&rdquo;</strong></p><p>从项目初始化、代码编写、数据库设计、API对接、错误处理、单元测试到最后git提交——<strong>整个过程他几乎没手写一行代码</strong>，全程在终端里和Claude Code对话，看着AI一步步把项目建起来。</p><p>这不是段子，这是2026年真实发生的事情。</p><p><img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&amp;h=500&amp;fit=crop&amp;crop=center" loading=lazy alt=终端中的AI编程助手正在改变开发者的工作方式></p><hr><h2 id=claude-code是什么>Claude Code是什么？</h2><p><strong>Claude Code是Anthropic推出的Terminal原生AI编程助手。</strong> 注意关键词：<strong>Terminal原生</strong>。</p><p>它不是一个IDE插件，不是一个网页聊天框，而是直接跑在你的命令行终端里的AI编程伙伴。你打开Terminal，输入<code>claude</code>，就进入了一个交互式编程环境——你说需求，它写代码、改文件、跑测试、提交PR，全程自主完成。</p><blockquote><p>&ldquo;Claude Code的设计哲学是：<strong>让AI直接操作你的开发环境</strong>，而不是让你在AI和编辑器之间来回复制粘贴。&rdquo;</p></blockquote><hr><h2 id=它和cursorcopilot有什么不同>它和Cursor、Copilot有什么不同？</h2><p>这是很多人第一个问题。简单理清楚：</p><div class=table-wrapper><table><thead><tr><th>特性</th><th>Claude Code</th><th>Cursor</th><th>GitHub Copilot</th></tr></thead><tbody><tr><td><strong>运行环境</strong></td><td>终端（Terminal）</td><td>独立IDE</td><td>IDE插件</td></tr><tr><td><strong>交互方式</strong></td><td>自然语言对话</td><td>自然语言 + IDE操作</td><td>代码补全 + Chat</td></tr><tr><td><strong>自主性</strong></td><td>⭐⭐⭐⭐⭐ 可完全自主</td><td>⭐⭐⭐⭐ 半自主</td><td>⭐⭐⭐ 辅助为主</td></tr><tr><td><strong>目标用户</strong></td><td>资深开发者</td><td>所有开发者</td><td>所有开发者</td></tr><tr><td><strong>文件操作</strong></td><td>直接读写项目文件</td><td>在IDE中操作</td><td>在IDE中补全</td></tr><tr><td><strong>命令执行</strong></td><td>可以直接跑shell命令</td><td>有限支持</td><td>不支持</td></tr><tr><td><strong>Git操作</strong></td><td>可以自主提交/创建PR</td><td>有限支持</td><td>不支持</td></tr><tr><td><strong>计费方式</strong></td><td>API按量付费</td><td>$20-40/月</td><td>$10-19/月</td></tr></tbody></table></div><p><strong>一句话总结</strong>：Copilot像你的<strong>打字助手</strong>，Cursor像你的<strong>编程搭档</strong>，Claude Code像你的<strong>AI程序员同事</strong>——你告诉它要做什么，它自己动手做。</p><p><img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?w=800&amp;h=500&amp;fit=crop&amp;crop=center" loading=lazy alt=不同AI编程工具适合不同的工作场景></p><hr><h2 id=核心能力它到底能做什么>核心能力：它到底能做什么？</h2><p>Claude Code的能力边界远超大多数人的想象。来看看它能做的事情：</p><h3 id=1-完全自主编码>1. 完全自主编码</h3><p>你描述需求，它直接动手写代码。不是给你代码片段让你复制粘贴，而是<strong>直接在你的项目目录里创建和修改文件</strong>。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>You: 帮我创建一个Express.js的REST API，包含用户注册、登录、CRUD操作，用MongoDB做数据库
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Claude Code: 好的，我来帮你搭建这个项目...
+</span></span><span class=line><span class=cl>[创建 package.json]
+</span></span><span class=line><span class=cl>[安装依赖 express mongoose bcrypt jsonwebtoken...]
+</span></span><span class=line><span class=cl>[创建 src/models/User.js]
+</span></span><span class=line><span class=cl>[创建 src/routes/auth.js]
+</span></span><span class=line><span class=cl>[创建 src/routes/users.js]
+</span></span><span class=line><span class=cl>[创建 src/middleware/auth.js]
+</span></span><span class=line><span class=cl>[创建 src/app.js]
+</span></span><span class=line><span class=cl>[创建 .env.example]
+</span></span><span class=line><span class=cl>...
+</span></span></code></pre></td></tr></table></div></div><h3 id=2-自动测试和修bug>2. 自动测试和修Bug</h3><p>写完代码后，它会主动跑测试：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>Claude Code: 代码写好了，让我运行测试看看...
+</span></span><span class=line><span class=cl>[执行 npm test]
+</span></span><span class=line><span class=cl>发现了2个测试失败，我来修复...
+</span></span><span class=line><span class=cl>[修改 src/routes/auth.js 第47行]
+</span></span><span class=line><span class=cl>[再次运行 npm test]
+</span></span><span class=line><span class=cl>全部通过！✅
+</span></span></code></pre></td></tr></table></div></div><h3 id=3-代码审查和重构>3. 代码审查和重构</h3><p>把一段祖传代码丢给它：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span><span class=lnt>9
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>You: 看看这个文件有什么问题，帮我重构一下
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Claude Code: 我来分析一下这个文件...
+</span></span><span class=line><span class=cl>发现以下问题：
+</span></span><span class=line><span class=cl>1. 函数 processData() 有300行，应该拆分
+</span></span><span class=line><span class=cl>2. 多处重复逻辑可以抽取
+</span></span><span class=line><span class=cl>3. 错误处理不完善
+</span></span><span class=line><span class=cl>4. 有潜在的内存泄漏...
+</span></span><span class=line><span class=cl>我来逐一修复...
+</span></span></code></pre></td></tr></table></div></div><h3 id=4-git操作和pr创建>4. Git操作和PR创建</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>You: 把今天的改动提交一下，写个清晰的commit message
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Claude Code: 好的，让我看看改了什么...
+</span></span><span class=line><span class=cl>[git add -A]
+</span></span><span class=line><span class=cl>[git commit -m &#34;feat: add user authentication with JWT tokens
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>- Add register/login endpoints
+</span></span><span class=line><span class=cl>- Implement JWT middleware
+</span></span><span class=line><span class=cl>- Add password hashing with bcrypt
+</span></span><span class=line><span class=cl>- Add input validation&#34;]
+</span></span></code></pre></td></tr></table></div></div><p>甚至可以直接创建Pull Request，写好PR描述和变更日志。</p><h3 id=5-项目理解和导航>5. 项目理解和导航</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span><span class=lnt>9
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>You: 这个项目的支付流程是怎么实现的？
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Claude Code: 让我分析一下代码库...
+</span></span><span class=line><span class=cl>[读取多个相关文件]
+</span></span><span class=line><span class=cl>这个项目的支付流程如下：
+</span></span><span class=line><span class=cl>1. 用户在 src/pages/Checkout.tsx 发起支付
+</span></span><span class=line><span class=cl>2. 调用 src/services/payment.ts 的 createOrder()
+</span></span><span class=line><span class=cl>3. 后端 src/api/payment/route.ts 处理请求
+</span></span><span class=line><span class=cl>4. 通过 src/lib/stripe.ts 调用Stripe API...
+</span></span></code></pre></td></tr></table></div></div><hr><h2 id=claude-4-opussonnet编程能力有多强>Claude 4 Opus/Sonnet：编程能力有多强？</h2><p>Claude Code背后的"大脑"是Anthropic的Claude 4系列模型，这是目前编程能力最强的AI模型之一。</p><h3 id=在主流编程基准测试中的表现>在主流编程基准测试中的表现：</h3><div class=table-wrapper><table><thead><tr><th>基准测试</th><th>Claude 4 Opus</th><th>Claude 4 Sonnet</th><th>GPT-4o</th><th>Gemini 2.5 Pro</th></tr></thead><tbody><tr><td><strong>SWE-bench</strong></td><td>72.0%</td><td>65.4%</td><td>48.2%</td><td>63.8%</td></tr><tr><td><strong>HumanEval</strong></td><td>96.4%</td><td>94.8%</td><td>92.1%</td><td>93.5%</td></tr><tr><td><strong>MBPP</strong></td><td>91.2%</td><td>88.7%</td><td>86.5%</td><td>87.9%</td></tr></tbody></table></div><blockquote><p><strong>SWE-bench</strong> 是最接近真实软件工程任务的基准测试——给AI一个真实的GitHub Issue，让它自己修bug。Claude 4 Opus在这个测试上遥遥领先，说明它的"实战编程"能力确实强。</p></blockquote><p><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&amp;h=500&amp;fit=crop&amp;crop=center" loading=lazy alt=AI模型的编程能力正在快速提升></p><hr><h2 id=使用方式和计费模式>使用方式和计费模式</h2><h3 id=安装>安装</h3><p>Claude Code的安装非常简单：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span><span class=lnt>9
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=c1># 使用npm安装</span>
+</span></span><span class=line><span class=cl>npm install -g @anthropic-ai/claude-code
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 登录认证</span>
+</span></span><span class=line><span class=cl>claude login
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 在项目目录中启动</span>
+</span></span><span class=line><span class=cl><span class=nb>cd</span> your-project
+</span></span><span class=line><span class=cl>claude
+</span></span></code></pre></td></tr></table></div></div><h3 id=计费>计费</h3><p>Claude Code使用<strong>API按量付费</strong>模式，这意味着：</p><ul><li><strong>没有月费</strong>，用多少付多少</li><li>主要成本是<strong>token消耗</strong></li><li>Claude 4 Sonnet：输入$3/百万token，输出$15/百万token</li><li>Claude 4 Opus：输入$15/百万token，输出$75/百万token</li></ul><p><strong>实际成本参考：</strong></p><ul><li>日常轻度使用：约$5-15/天</li><li>重度开发（全天使用）：约$30-80/天</li><li>典型一个完整功能开发：约$2-10</li></ul><blockquote><p>💡 <strong>省钱技巧</strong>：日常用Sonnet就够了，只在需要处理特别复杂的架构设计或跨文件重构时切换到Opus。Sonnet的性价比更高。</p></blockquote><p>也可以通过Anthropic的<strong>Max订阅计划</strong>（$100-200/月）获得包含一定额度的使用量，适合重度用户。</p><hr><h2 id=实际工作流展示>实际工作流展示</h2><p>来看一个完整的工作流，感受Claude Code的威力：</p><h3 id=场景给现有项目添加一个新功能>场景：给现有项目添加一个新功能</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl># 1. 启动Claude Code
+</span></span><span class=line><span class=cl>$ cd ~/projects/my-app
+</span></span><span class=line><span class=cl>$ claude
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl># 2. 让AI先了解项目
+</span></span><span class=line><span class=cl>You: 先熟悉一下这个项目的结构和技术栈
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Claude Code: [读取 package.json, tsconfig.json, 目录结构...]
+</span></span><span class=line><span class=cl>这是一个Next.js 14项目，使用TypeScript，
+</span></span><span class=line><span class=cl>数据库用的Prisma + PostgreSQL，
+</span></span><span class=line><span class=cl>样式用的Tailwind CSS...
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl># 3. 描述需求
+</span></span><span class=line><span class=cl>You: 我需要添加一个&#34;用户收藏&#34;功能。用户可以收藏文章，
+</span></span><span class=line><span class=cl>在个人中心查看收藏列表，支持取消收藏。
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Claude Code: 好的，我来实现这个功能。需要以下步骤：
+</span></span><span class=line><span class=cl>1. 数据库：添加Favorite模型
+</span></span><span class=line><span class=cl>2. API：创建收藏相关的接口
+</span></span><span class=line><span class=cl>3. 前端：添加收藏按钮和收藏列表页面
+</span></span><span class=line><span class=cl>开始实施...
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>[修改 prisma/schema.prisma - 添加Favorite模型]
+</span></span><span class=line><span class=cl>[执行 npx prisma migrate dev --name add-favorites]
+</span></span><span class=line><span class=cl>[创建 src/app/api/favorites/route.ts]
+</span></span><span class=line><span class=cl>[创建 src/components/FavoriteButton.tsx]
+</span></span><span class=line><span class=cl>[修改 src/app/article/[id]/page.tsx - 添加收藏按钮]
+</span></span><span class=line><span class=cl>[创建 src/app/profile/favorites/page.tsx]
+</span></span><span class=line><span class=cl>[创建测试文件 __tests__/favorites.test.ts]
+</span></span><span class=line><span class=cl>[执行 npm test]
+</span></span><span class=line><span class=cl>全部完成！✅
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl># 4. 微调
+</span></span><span class=line><span class=cl>You: 收藏按钮加个动画效果，点击时有个爱心弹跳的效果
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Claude Code: [修改 FavoriteButton.tsx - 添加framer-motion动画]
+</span></span><span class=line><span class=cl>搞定，你可以刷新页面看看效果。
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl># 5. 提交
+</span></span><span class=line><span class=cl>You: 提交代码，创建PR
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Claude Code: [git add ...]
+</span></span><span class=line><span class=cl>[git commit -m &#34;feat: add article favorites feature&#34;]
+</span></span><span class=line><span class=cl>[gh pr create --title &#34;Add user favorites&#34; --body &#34;...&#34;]
+</span></span><span class=line><span class=cl>PR已创建：#127
+</span></span></code></pre></td></tr></table></div></div><p>整个过程，开发者做的只是<strong>描述需求和确认方向</strong>，所有代码编写、测试、提交都是AI自主完成的。</p><hr><h2 id=适合哪类开发者>适合哪类开发者？</h2><p>Claude Code不是给所有人用的。它有明确的目标用户：</p><h3 id=-非常适合>✅ 非常适合：</h3><ul><li><strong>资深开发者</strong>（3年+经验）：能看懂AI写的代码，能及时发现问题</li><li><strong>全栈开发者</strong>：一个人搞前后端，Claude Code能帮你效率翻倍</li><li><strong>喜欢命令行的人</strong>：如果你本来就习惯在Terminal里工作</li><li><strong>做原型/MVP</strong>：快速把想法变成可运行的产品</li><li><strong>开源贡献者</strong>：快速理解大型代码库，高效提交PR</li></ul><h3 id=-不太适合>❌ 不太适合：</h3><ul><li><strong>编程新手</strong>：你需要能看懂AI写的代码才能用好它</li><li><strong>不熟悉命令行的人</strong>：Cursor或Copilot可能更友好</li><li><strong>对成本敏感的人</strong>：API计费可能比月费订阅贵</li></ul><hr><h2 id=竞品对比>竞品对比</h2><p>AI编程的命令行工具越来越多了，来做个对比：</p><div class=table-wrapper><table><thead><tr><th>特性</th><th>Claude Code</th><th>GitHub Copilot CLI</th><th>Amazon Q CLI</th><th>Aider</th></tr></thead><tbody><tr><td><strong>底层模型</strong></td><td>Claude 4</td><td>GPT-4o</td><td>Amazon自研</td><td>多模型支持</td></tr><tr><td><strong>编程能力</strong></td><td>⭐⭐⭐⭐⭐</td><td>⭐⭐⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐⭐⭐</td></tr><tr><td><strong>自主性</strong></td><td>极高</td><td>中等</td><td>中等</td><td>高</td></tr><tr><td><strong>上下文理解</strong></td><td>200K tokens</td><td>有限</td><td>有限</td><td>取决于模型</td></tr><tr><td><strong>价格</strong></td><td>API按量</td><td>$10-19/月</td><td>AWS套餐含</td><td>API按量</td></tr><tr><td><strong>开源</strong></td><td>❌</td><td>❌</td><td>❌</td><td>✅</td></tr></tbody></table></div><p><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&amp;h=500&amp;fit=crop&amp;crop=center" loading=lazy alt=命令行AI工具的竞争越来越激烈></p><p>Claude Code的最大优势在于<strong>Claude模型本身的编程能力</strong>和<strong>超长上下文窗口</strong>（200K tokens意味着它可以同时"看到"整个中型项目的代码）。</p><hr><h2 id=最佳实践和使用技巧>最佳实践和使用技巧</h2><p>用好Claude Code，这些经验分享给你：</p><h3 id=1-先让ai了解项目>1. 先让AI了解项目</h3><p>每次开始工作前，先让Claude Code读一遍项目结构：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>You: 先看看这个项目的代码结构，了解一下技术栈和架构
+</span></span></code></pre></td></tr></table></div></div><h3 id=2-需求描述要清晰>2. 需求描述要清晰</h3><ul><li>❌ &ldquo;帮我改改这个接口&rdquo;</li><li>✅ &ldquo;把 /api/users 接口改成支持分页查询，每页20条，返回总数，支持按创建时间排序&rdquo;</li></ul><h3 id=3-分步骤推进复杂任务>3. 分步骤推进复杂任务</h3><p>不要一次丢一个巨大的需求，把大任务拆成小步骤：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>You: 我们分步来做这个功能。第一步：先设计数据库表结构
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>You: 好的，第二步：写API接口
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>You: 第三步：写前端页面
+</span></span></code></pre></td></tr></table></div></div><h3 id=4-及时审查ai的代码>4. 及时审查AI的代码</h3><p>虽然Claude Code很强，但<strong>永远不要盲目信任AI写的代码</strong>。每次生成后：</p><ul><li>快速浏览关键逻辑</li><li>检查安全相关的代码（认证、授权、输入验证）</li><li>确认测试覆盖了边界情况</li></ul><h3 id=5-善用claudemd配置文件>5. 善用CLAUDE.md配置文件</h3><p>在项目根目录创建<code>CLAUDE.md</code>文件，写上项目的约定和规范：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl><span class=gh># 项目规范
+</span></span></span><span class=line><span class=cl><span class=k>-</span> 使用TypeScript strict模式
+</span></span><span class=line><span class=cl><span class=k>-</span> API响应统一用 { code, data, message } 格式
+</span></span><span class=line><span class=cl><span class=k>-</span> 错误处理使用自定义AppError类
+</span></span><span class=line><span class=cl><span class=k>-</span> 测试覆盖率要求80%以上
+</span></span></code></pre></td></tr></table></div></div><p>Claude Code会自动读取这个文件，后续生成的代码会遵循这些规范。</p><h3 id=6-使用compact压缩上下文>6. 使用<code>/compact</code>压缩上下文</h3><p>对话太长时，用<code>/compact</code>命令让AI总结之前的对话，释放上下文空间。</p><hr><h2 id=上手教程5分钟开始使用>上手教程：5分钟开始使用</h2><h3 id=前置条件>前置条件</h3><ul><li>Node.js 18+</li><li>一个Anthropic API账号（去 <a class=link href=https://console.anthropic.com target=_blank rel=noopener>console.anthropic.com</a> 注册）</li></ul><h3 id=步骤1安装>步骤1：安装</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>npm install -g @anthropic-ai/claude-code
+</span></span></code></pre></td></tr></table></div></div><h3 id=步骤2认证>步骤2：认证</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>claude login
+</span></span><span class=line><span class=cl><span class=c1># 按提示完成认证</span>
+</span></span></code></pre></td></tr></table></div></div><h3 id=步骤3进入项目开始使用>步骤3：进入项目开始使用</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=nb>cd</span> your-project
+</span></span><span class=line><span class=cl>claude
+</span></span></code></pre></td></tr></table></div></div><h3 id=步骤4开始对话>步骤4：开始对话</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>You: 你好！帮我看看这个项目，有什么可以优化的地方？
+</span></span></code></pre></td></tr></table></div></div><p>就这么简单。没有复杂的配置，没有IDE切换，打开终端就能用。</p><p><img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800&amp;h=500&amp;fit=crop&amp;crop=center" loading=lazy alt=开始使用AI编程助手提升开发效率></p><hr><h2 id=写在最后>写在最后</h2><p>Claude Code代表了AI编程工具的一个新方向：<strong>不是辅助你写代码，而是替你写代码。</strong></p><p>这听起来有点吓人，但实际用下来你会发现——<strong>它更像是一个超级能干的初级程序员</strong>。它可以快速完成大量重复性、模板化的工作，但最终的架构决策、代码审查、质量把关还是需要你来做。</p><p>对于资深开发者来说，Claude Code是一个<strong>效率放大器</strong>。它把你从繁琐的编码工作中解放出来，让你有更多精力思考架构、设计和业务逻辑。</p><blockquote><p>💡 <strong>一句话总结</strong>：如果你是一个习惯命令行工作的资深开发者，Claude Code可能是目前最适合你的AI编程工具。试一次，你就回不去了。</p></blockquote></section><footer class=article-footer><section class=article-tags><a href=/tags/claude/>Claude</a>
+<a href=/tags/anthropic/>Anthropic</a>
+<a href=/tags/ai%E7%BC%96%E7%A8%8B/>AI编程</a>
+<a href=/tags/%E7%BB%88%E7%AB%AF%E5%B7%A5%E5%85%B7/>终端工具</a>
+<a href=/tags/%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90/>代码生成</a></section></footer></article><aside class=related-content--wrapper><h2 class=section-title>相关文章</h2><div class=related-content><div class="flex article-list--tile"><article class=has-image><a href=/p/cursor-ai/><div class=article-image><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&amp;h=600&amp;fit=crop&amp;crop=center" loading=lazy data-key=cursor-ai data-hash="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&amp;h=600&amp;fit=crop&amp;crop=center"></div><div class=article-details><h2 class=article-title>Cursor AI：改变百万开发者编程方式的AI IDE</h2></div></a></article><article class=has-image><a href=/p/deepseek-r1/><div class=article-image><img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&amp;h=600&amp;fit=crop&amp;crop=center" loading=lazy data-key=deepseek-r1 data-hash="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&amp;h=600&amp;fit=crop&amp;crop=center"></div><div class=article-details><h2 class=article-title>DeepSeek R1：震撼全球的中国开源推理模型</h2></div></a></article><article class=has-image><a href=/p/sora-ai-video/><div class=article-image><img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&amp;h=600&amp;fit=crop&amp;crop=center" loading=lazy data-key=sora-ai-video data-hash="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&amp;h=600&amp;fit=crop&amp;crop=center"></div><div class=article-details><h2 class=article-title>Sora：OpenAI如何用AI重新定义视频创作</h2></div></a></article><article class=has-image><a href=/p/perplexity-ai/><div class=article-image><img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&amp;h=600&amp;fit=crop&amp;crop=center" loading=lazy data-key=perplexity-ai data-hash="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&amp;h=600&amp;fit=crop&amp;crop=center"></div><div class=article-details><h2 class=article-title>Perplexity AI：正在挑战Google的AI搜索引擎</h2></div></a></article><article class=has-image><a href=/p/midjourney-v7/><div class=article-image><img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&amp;h=600&amp;fit=crop&amp;crop=center" loading=lazy data-key=midjourney-v7 data-hash="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&amp;h=600&amp;fit=crop&amp;crop=center"></div><div class=article-details><h2 class=article-title>Midjourney v7：AI绘画领域的艺术巅峰</h2></div></a></article></div></div></aside><footer class=site-footer><section class=copyright>&copy;
+2025 -
+2026 有鱼智界 | 森林有鱼</section><section class=powerby>森林有鱼（深圳）科技有限公司<br>使用 <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> 构建<br>主题 <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.34.2>Stack</a></b> 由 <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a> 设计</section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.c922af694cc257bf1ecc41c0dd7b0430f9114ec280ccf67cd2c6ad55f5316c4e.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>推理AI on 有鱼智界 | 森林有鱼</title><link>https://www.iyouyu.tech/tags/%E6%8E%A8%E7%90%86ai/</link><description>Recent content in 推理AI on 有鱼智界 | 森林有鱼</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.iyouyu.tech/tags/%E6%8E%A8%E7%90%86ai/index.xml" rel="self" type="application/rss+xml"/><item><title>DeepSeek R1：震撼全球的中国开源推理模型</title><link>https://www.iyouyu.tech/p/deepseek-r1/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.iyouyu.tech/p/deepseek-r1/</guid><description>&lt;img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&amp;h=600&amp;fit=crop&amp;crop=center" alt="Featured image of post DeepSeek R1：震撼全球的中国开源推理模型" /&gt;&lt;h2 id="一家中国创业公司把硅谷巨头打了个措手不及"&gt;一家中国创业公司，把硅谷巨头打了个措手不及
+&lt;/h2&gt;&lt;p&gt;想象一下：OpenAI花了&lt;strong&gt;数亿美元&lt;/strong&gt;训练出推理模型o1，而一家来自中国杭州的创业公司，用&lt;strong&gt;不到600万美元&lt;/strong&gt;的训练成本，造出了一个在推理能力上几乎打平o1的模型。&lt;/p&gt;
+&lt;p&gt;这不是科幻小说，这是2025年1月真实发生的事情。DeepSeek R1的发布，直接让英伟达股价一天蒸发了近6000亿美元市值，整个硅谷都在问同一个问题：&lt;strong&gt;&amp;ldquo;他们是怎么做到的？&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="AI芯片与深度学习"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="deepseek是谁"&gt;DeepSeek是谁？
+&lt;/h2&gt;&lt;p&gt;很多人第一次听到DeepSeek可能会觉得陌生，但在AI圈子里，这个名字早就如雷贯耳了。&lt;/p&gt;
+&lt;p&gt;DeepSeek（深度求索）成立于2023年，由中国顶级量化对冲基金&lt;strong&gt;幻方量化&lt;/strong&gt;孵化。幻方量化是国内管理规模最大的量化私募之一，长期使用AI进行金融建模，拥有海量的GPU算力资源。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 简单来说，DeepSeek的&amp;quot;爸爸&amp;quot;是一家靠AI炒股赚大钱的公司，所以DeepSeek从诞生第一天起就不差算力、不差人才。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;公司创始人梁文锋是幻方量化的联合创始人，他的理念很简单：&lt;strong&gt;用最高效的方式，做最前沿的通用人工智能研究&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="现代科技办公空间"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="r1的核心突破让ai说出自己的思考过程"&gt;R1的核心突破：让AI&amp;quot;说出&amp;quot;自己的思考过程
+&lt;/h2&gt;&lt;p&gt;以前的大语言模型像一个&amp;quot;黑箱&amp;quot;——你问它一个问题，它直接给你答案，但你不知道它是怎么想的。万一答错了，你也没法判断它错在哪一步。&lt;/p&gt;
+&lt;p&gt;DeepSeek R1的最大突破就是&lt;strong&gt;链式思考（Chain-of-Thought）&lt;/strong&gt;。它会把自己的推理过程一步一步展示给你看：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;用户问题：一个水池有两个水管，A管3小时注满，B管5小时注满，同时开多久注满？
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;R1的思考过程：
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ A管每小时注入 1/3 池
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ B管每小时注入 1/5 池
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ 同时开，每小时注入 1/3 + 1/5 = 8/15 池
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ 注满需要 15/8 = 1.875 小时
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ 也就是1小时52分30秒
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;最终答案：同时开两个水管，1小时52分30秒可以注满水池。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这种&amp;quot;把草稿纸摊开给你看&amp;quot;的方式，有几个巨大的好处：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;可验证性&lt;/strong&gt;：你可以检查每一步推理是否正确&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可调试性&lt;/strong&gt;：如果答错了，能精确找到出错的步骤&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;教育价值&lt;/strong&gt;：不只给答案，还教你解题思路&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="硬核数据r1到底有多强"&gt;硬核数据：R1到底有多强？
+&lt;/h2&gt;&lt;p&gt;说了这么多，R1的实际表现到底怎么样？来看一组让业界震惊的数据：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;基准测试&lt;/th&gt;
+&lt;th&gt;DeepSeek R1&lt;/th&gt;
+&lt;th&gt;OpenAI o1&lt;/th&gt;
+&lt;th&gt;Claude 3.5 Sonnet&lt;/th&gt;
+&lt;th&gt;GPT-4o&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;AIME 2024（数学竞赛）&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;96.3%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;96.4%&lt;/td&gt;
+&lt;td&gt;16.0%&lt;/td&gt;
+&lt;td&gt;9.3%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MATH-500&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;97.3%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;96.4%&lt;/td&gt;
+&lt;td&gt;78.3%&lt;/td&gt;
+&lt;td&gt;74.6%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Codeforces编程&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;2,029 Elo&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2,061 Elo&lt;/td&gt;
+&lt;td&gt;717 Elo&lt;/td&gt;
+&lt;td&gt;759 Elo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;GPQA Diamond（研究生级科学）&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;71.5%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;75.7%&lt;/td&gt;
+&lt;td&gt;65.0%&lt;/td&gt;
+&lt;td&gt;49.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SWE-bench（软件工程）&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;49.2%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;48.9%&lt;/td&gt;
+&lt;td&gt;50.8%&lt;/td&gt;
+&lt;td&gt;38.4%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🔥 注意看AIME数学竞赛成绩：96.3%，这是&lt;strong&gt;美国高中数学邀请赛&lt;/strong&gt;的题目，难度极高，R1几乎和o1打了个平手。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="数据分析与AI性能"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="成本优势这才是最炸裂的部分"&gt;成本优势：这才是最炸裂的部分
+&lt;/h2&gt;&lt;p&gt;性能打平不算什么，真正让硅谷坐不住的是&lt;strong&gt;成本&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;来看一组对比数据：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;指标&lt;/th&gt;
+&lt;th&gt;DeepSeek R1&lt;/th&gt;
+&lt;th&gt;OpenAI o1&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;训练成本&lt;/td&gt;
+&lt;td&gt;~$557万&lt;/td&gt;
+&lt;td&gt;数亿美元（估计）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;API输入价格&lt;/td&gt;
+&lt;td&gt;$0.55/百万token&lt;/td&gt;
+&lt;td&gt;$15/百万token&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;API输出价格&lt;/td&gt;
+&lt;td&gt;$2.19/百万token&lt;/td&gt;
+&lt;td&gt;$60/百万token&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;成本比例&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;1x&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;约27x&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;没看错，&lt;strong&gt;调用DeepSeek R1的API成本大约只有OpenAI o1的3%左右&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这意味着什么？以前只有大公司才用得起的顶级推理AI，现在个人开发者、小团队都可以随便用了。这不是量变，这是质变。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="技术揭秘为什么能这么便宜"&gt;技术揭秘：为什么能这么便宜？
+&lt;/h2&gt;&lt;p&gt;DeepSeek团队在技术上做了很多精妙的创新：&lt;/p&gt;
+&lt;h3 id="1-moe架构混合专家模型"&gt;1. MoE架构（混合专家模型）
+&lt;/h3&gt;&lt;p&gt;R1基于DeepSeek-V3的MoE架构，总参数6710亿，但每次推理&lt;strong&gt;只激活370亿参数&lt;/strong&gt;。就像一个公司有671个员工，但每次只需要37个人上班，效率极高。&lt;/p&gt;
+&lt;h3 id="2-多头潜在注意力mla"&gt;2. 多头潜在注意力（MLA）
+&lt;/h3&gt;&lt;p&gt;一种更高效的注意力机制，大幅降低了推理时的内存占用，让同样的GPU能处理更多请求。&lt;/p&gt;
+&lt;h3 id="3-强化学习驱动"&gt;3. 强化学习驱动
+&lt;/h3&gt;&lt;p&gt;R1使用了大规模的强化学习（RL）来增强推理能力，不依赖大量的人工标注数据，而是让模型在&amp;quot;自我对弈&amp;quot;中不断进化。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🧠 通俗理解：DeepSeek的策略不是&amp;quot;堆更多的GPU&amp;quot;，而是&amp;quot;用更聪明的算法让现有GPU发挥出更大的价值&amp;quot;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="开源的意义apache-20真正的自由"&gt;开源的意义：Apache 2.0，真正的自由
+&lt;/h2&gt;&lt;p&gt;DeepSeek R1采用&lt;strong&gt;Apache 2.0许可证&lt;/strong&gt;开源，这意味着：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ 个人可以免费使用&lt;/li&gt;
+&lt;li&gt;✅ 企业可以商用&lt;/li&gt;
+&lt;li&gt;✅ 可以修改源码&lt;/li&gt;
+&lt;li&gt;✅ 可以基于它训练自己的模型&lt;/li&gt;
+&lt;li&gt;✅ 不需要向DeepSeek付任何费用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这在顶级推理模型中几乎是前所未有的。OpenAI的o1？闭源。Google的Gemini？闭源。只有DeepSeek把这么强的模型完全开放给了全世界。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="开源社区与协作"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="华尔街的deepseek震荡"&gt;华尔街的&amp;quot;DeepSeek震荡&amp;quot;
+&lt;/h2&gt;&lt;p&gt;2025年1月27日，DeepSeek R1正式发布的消息传到华尔街后，市场反应堪称&amp;quot;地震级&amp;quot;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;英伟达（NVIDIA）&lt;/strong&gt; 股价单日下跌约17%，市值蒸发近&lt;strong&gt;5890亿美元&lt;/strong&gt;——这是美国股市历史上最大的单日市值损失&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;博通、AMD&lt;/strong&gt;等芯片股全线大跌&lt;/li&gt;
+&lt;li&gt;投资者开始质疑：如果AI训练不需要那么多GPU，那英伟达的估值是否合理？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当然，市场后来逐渐恢复了理性。但这次事件说明了一个事实：&lt;strong&gt;DeepSeek R1的出现，动摇了&amp;quot;AI就是烧钱军备竞赛&amp;quot;的基本叙事&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="怎么使用deepseek-r1"&gt;怎么使用DeepSeek R1？
+&lt;/h2&gt;&lt;p&gt;想体验R1其实非常简单：&lt;/p&gt;
+&lt;h3 id="方式一官方网站"&gt;方式一：官方网站
+&lt;/h3&gt;&lt;p&gt;访问 &lt;a class="link" href="https://chat.deepseek.com" target="_blank" rel="noopener"
+&gt;chat.deepseek.com&lt;/a&gt;，注册账号后直接在网页端使用，免费！&lt;/p&gt;
+&lt;h3 id="方式二官方api"&gt;方式二：官方API
+&lt;/h3&gt;&lt;p&gt;开发者可以通过API调用R1，价格极其便宜。注册后会获得API Key，兼容OpenAI的API格式。&lt;/p&gt;
+&lt;h3 id="方式三本地部署"&gt;方式三：本地部署
+&lt;/h3&gt;&lt;p&gt;因为是开源的，你可以下载模型权重在自己的电脑或服务器上运行。通过Ollama等工具，甚至可以在Mac上跑精简版本：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 使用Ollama在本地运行DeepSeek R1精简版&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ollama run deepseek-r1:14b
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="方式四第三方平台"&gt;方式四：第三方平台
+&lt;/h3&gt;&lt;p&gt;很多平台已经集成了DeepSeek R1，比如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugging Face&lt;/strong&gt;：直接在线体验&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Together AI&lt;/strong&gt;：提供API服务&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fireworks AI&lt;/strong&gt;：高性能推理服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="开发者使用AI编程"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="deepseek-r1为什么这么重要"&gt;DeepSeek R1为什么这么重要？
+&lt;/h2&gt;&lt;p&gt;最后总结一下，DeepSeek R1的重要性可以用几句话概括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;打破了&amp;quot;AI=烧钱&amp;quot;的神话&lt;/strong&gt;：证明了聪明的算法可以弥补算力的不足&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;推动了AI民主化&lt;/strong&gt;：顶级推理能力不再是大公司的专属&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;改变了竞争格局&lt;/strong&gt;：逼迫OpenAI、Google重新审视自己的策略&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开源的胜利&lt;/strong&gt;：证明了开源模型可以和闭源巨头正面对抗&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💬 一句话总结：DeepSeek R1不只是一个模型，它是AI行业从&amp;quot;比谁有钱&amp;quot;转向&amp;quot;比谁聪明&amp;quot;的标志性事件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;无论你是AI从业者、开发者，还是普通用户，DeepSeek R1都值得你关注。因为它代表的不只是技术突破，更是一种新的可能性——&lt;strong&gt;最好的AI，应该是所有人都能用得起的AI&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;如果你觉得这篇文章有帮助，欢迎分享给更多人。关注我们，获取更多AI前沿资讯。&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

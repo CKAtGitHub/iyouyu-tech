@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen on 有鱼智界 | 森林有鱼</title><link>https://www.iyouyu.tech/tags/qwen/</link><description>Recent content in Qwen on 有鱼智界 | 森林有鱼</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.iyouyu.tech/tags/qwen/index.xml" rel="self" type="application/rss+xml"/><item><title>通义千问Qwen3：阿里巴巴的开源大模型野心</title><link>https://www.iyouyu.tech/p/qwen3/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://www.iyouyu.tech/p/qwen3/</guid><description>&lt;img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&amp;h=600&amp;fit=crop&amp;crop=center" alt="Featured image of post 通义千问Qwen3：阿里巴巴的开源大模型野心" /&gt;&lt;p&gt;在中国做AI应用，有一个名字你绝对绕不开——&lt;strong&gt;通义千问（Qwen）&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;不管你是要搭建企业智能客服、做AI写作助手，还是开发多模态应用，往那些技术社区和开发者论坛里一看，讨论最多的国产开源大模型十有八九就是Qwen。背靠阿里巴巴和阿里云，通义千问从2023年首次亮相到现在的Qwen3系列，已经成为国内大模型赛道的绝对主力。&lt;/p&gt;
+&lt;p&gt;今天我们就来好好聊聊：&lt;strong&gt;Qwen3到底强在哪？它跟GPT-4o、Claude比起来怎么样？普通开发者怎么快速用起来？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&amp;amp;h=400&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="阿里巴巴云计算数据中心"
+&gt;&lt;/p&gt;
+&lt;h2 id="阿里云ai的战略布局"&gt;阿里云AI的战略布局
+&lt;/h2&gt;&lt;p&gt;在聊Qwen3之前，我们得先理解阿里在AI领域的整体战略。&lt;/p&gt;
+&lt;p&gt;阿里的AI布局可以用一句话概括：&lt;strong&gt;底层做模型，中层做平台，上层做应用&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;底层&lt;/strong&gt;：通义千问系列大模型（Qwen）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中层&lt;/strong&gt;：阿里云百炼平台（模型托管和微调）、ModelScope社区&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;上层&lt;/strong&gt;：通义App、钉钉AI助手、淘宝AI购物助手等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Qwen就是这一切的&amp;quot;地基&amp;quot;。阿里选择了一条和OpenAI截然不同的路线——&lt;strong&gt;全面开源&lt;/strong&gt;。这个策略简单粗暴但极其有效：通过开源吸引开发者 → 开发者在阿里云上部署 → 阿里云赚云服务的钱。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🏗️ &lt;strong&gt;阿里的算盘&lt;/strong&gt;：大模型本身不赚钱，但围绕大模型的云服务和生态是一座金矿。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="qwen3系列全家桶"&gt;Qwen3系列全家桶
+&lt;/h2&gt;&lt;p&gt;Qwen3不是一个单独的模型，而是一个&lt;strong&gt;完整的模型矩阵&lt;/strong&gt;，覆盖从端侧到云端的各种场景：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;模型&lt;/th&gt;
+&lt;th&gt;参数量&lt;/th&gt;
+&lt;th&gt;定位&lt;/th&gt;
+&lt;th&gt;适用场景&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Qwen3-0.6B&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;6亿&lt;/td&gt;
+&lt;td&gt;端侧小模型&lt;/td&gt;
+&lt;td&gt;手机、IoT设备&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Qwen3-1.8B&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;18亿&lt;/td&gt;
+&lt;td&gt;轻量级&lt;/td&gt;
+&lt;td&gt;嵌入式设备、边缘计算&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Qwen3-4B&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;40亿&lt;/td&gt;
+&lt;td&gt;入门级&lt;/td&gt;
+&lt;td&gt;个人电脑本地部署&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Qwen3-8B&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;80亿&lt;/td&gt;
+&lt;td&gt;主力级&lt;/td&gt;
+&lt;td&gt;中小企业应用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Qwen3-14B&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;140亿&lt;/td&gt;
+&lt;td&gt;专业级&lt;/td&gt;
+&lt;td&gt;企业级复杂任务&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Qwen3-32B&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;320亿&lt;/td&gt;
+&lt;td&gt;旗舰级&lt;/td&gt;
+&lt;td&gt;高要求场景&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Qwen3-72B&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;720亿&lt;/td&gt;
+&lt;td&gt;顶配级&lt;/td&gt;
+&lt;td&gt;与GPT-4o竞争&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Qwen3-MoE-A27B&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;MoE架构&lt;/td&gt;
+&lt;td&gt;效率型&lt;/td&gt;
+&lt;td&gt;高性价比部署&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这阵容有多全呢？从一部手机到一整个数据中心，你都能找到合适的Qwen3模型来用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&amp;amp;h=400&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="不同规模的AI模型部署架构"
+&gt;&lt;/p&gt;
+&lt;h2 id="核心优势qwen3凭什么打"&gt;核心优势：Qwen3凭什么打？
+&lt;/h2&gt;&lt;h3 id="1-中文理解能力最强-"&gt;1. 中文理解能力最强 🇨🇳
+&lt;/h3&gt;&lt;p&gt;这是Qwen3最大的王牌。在各种中文基准测试中，Qwen3的表现都是第一梯队，很多场景下甚至超过了GPT-4o。&lt;/p&gt;
+&lt;p&gt;为什么？因为Qwen3的训练数据中包含了&lt;strong&gt;海量的高质量中文语料&lt;/strong&gt;——从古文诗词到网络用语，从学术论文到微博段子，覆盖面极广。这是海外模型天然的劣势。&lt;/p&gt;
+&lt;p&gt;举个例子：你让GPT-4o解释&amp;quot;摸鱼&amp;quot;是什么意思，它可能会真的给你讲钓鱼的方法。但Qwen3会立刻理解你在说上班&amp;quot;划水&amp;quot;。&lt;/p&gt;
+&lt;h3 id="2-完全开源免费-"&gt;2. 完全开源免费 📂
+&lt;/h3&gt;&lt;p&gt;Qwen3系列采用&lt;strong&gt;Apache 2.0许可证&lt;/strong&gt;开源，这意味着：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;个人使用：完全免费&lt;/li&gt;
+&lt;li&gt;商业使用：完全免费&lt;/li&gt;
+&lt;li&gt;二次开发：完全免费&lt;/li&gt;
+&lt;li&gt;私有部署：完全免费&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;没有任何套路，没有&amp;quot;开源但商用收费&amp;quot;的陷阱。对于预算有限的初创公司来说，这简直是天大的好消息。&lt;/p&gt;
+&lt;h3 id="3-部署灵活-"&gt;3. 部署灵活 🔧
+&lt;/h3&gt;&lt;p&gt;Qwen3支持多种部署方式，从本地笔记本到云端集群，想怎么部署怎么部署：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本地部署：通过Ollama、llama.cpp等工具在个人电脑上运行&lt;/li&gt;
+&lt;li&gt;云端API：通过阿里云百炼平台直接调用&lt;/li&gt;
+&lt;li&gt;私有云：在企业内网部署，数据不出门&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="4-推理能力大幅提升-"&gt;4. 推理能力大幅提升 🧠
+&lt;/h3&gt;&lt;p&gt;Qwen3在推理能力上有了质的飞跃，特别是在数学推理、代码生成、逻辑分析等需要&amp;quot;动脑子&amp;quot;的任务上，表现非常亮眼。&lt;/p&gt;
+&lt;h2 id="性能评测和国际大模型掰手腕"&gt;性能评测：和国际大模型掰手腕
+&lt;/h2&gt;&lt;p&gt;下面是Qwen3-72B在主流评测基准上与其他顶级模型的对比（数据来源：公开评测排行榜）：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;评测基准&lt;/th&gt;
+&lt;th&gt;Qwen3-72B&lt;/th&gt;
+&lt;th&gt;GPT-4o&lt;/th&gt;
+&lt;th&gt;Claude 3.5 Sonnet&lt;/th&gt;
+&lt;th&gt;Llama 3-70B&lt;/th&gt;
+&lt;th&gt;DeepSeek-V3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;MMLU&lt;/strong&gt;（综合知识）&lt;/td&gt;
+&lt;td&gt;86.4&lt;/td&gt;
+&lt;td&gt;88.7&lt;/td&gt;
+&lt;td&gt;88.3&lt;/td&gt;
+&lt;td&gt;82.0&lt;/td&gt;
+&lt;td&gt;87.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;GSM8K&lt;/strong&gt;（数学推理）&lt;/td&gt;
+&lt;td&gt;94.2&lt;/td&gt;
+&lt;td&gt;95.8&lt;/td&gt;
+&lt;td&gt;96.4&lt;/td&gt;
+&lt;td&gt;93.0&lt;/td&gt;
+&lt;td&gt;95.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;HumanEval&lt;/strong&gt;（代码）&lt;/td&gt;
+&lt;td&gt;86.6&lt;/td&gt;
+&lt;td&gt;90.2&lt;/td&gt;
+&lt;td&gt;92.0&lt;/td&gt;
+&lt;td&gt;81.7&lt;/td&gt;
+&lt;td&gt;89.3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;C-Eval&lt;/strong&gt;（中文能力）&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;92.8&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;83.5&lt;/td&gt;
+&lt;td&gt;82.1&lt;/td&gt;
+&lt;td&gt;67.5&lt;/td&gt;
+&lt;td&gt;90.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;CMMLU&lt;/strong&gt;（中文理解）&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;91.5&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;81.2&lt;/td&gt;
+&lt;td&gt;80.8&lt;/td&gt;
+&lt;td&gt;63.4&lt;/td&gt;
+&lt;td&gt;89.8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;ARC-C&lt;/strong&gt;（科学推理）&lt;/td&gt;
+&lt;td&gt;93.1&lt;/td&gt;
+&lt;td&gt;96.4&lt;/td&gt;
+&lt;td&gt;95.2&lt;/td&gt;
+&lt;td&gt;88.7&lt;/td&gt;
+&lt;td&gt;92.3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;可以看到，&lt;strong&gt;在中文相关的测试中，Qwen3遥遥领先&lt;/strong&gt;。在英文综合测试上虽然和GPT-4o还有一点差距，但已经非常接近了。考虑到Qwen3完全免费开源，这个性价比简直炸裂。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📊 &lt;strong&gt;关键结论&lt;/strong&gt;：如果你的应用场景以中文为主，Qwen3可能是比GPT-4o更好的选择。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="开源生态不只是模型"&gt;开源生态：不只是模型
+&lt;/h2&gt;&lt;p&gt;Qwen3的开源不仅仅是把模型权重放出来这么简单，而是构建了一个完整的开源生态：&lt;/p&gt;
+&lt;h3 id="huggingface下载量"&gt;HuggingFace下载量
+&lt;/h3&gt;&lt;p&gt;Qwen系列在HuggingFace上的累计下载量已经突破&lt;strong&gt;5000万次&lt;/strong&gt;，是中国开源大模型中最受欢迎的。&lt;/p&gt;
+&lt;h3 id="modelscope社区"&gt;ModelScope社区
+&lt;/h3&gt;&lt;p&gt;阿里旗下的ModelScope（魔搭）社区提供了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型下载和部署工具&lt;/li&gt;
+&lt;li&gt;微调训练框架&lt;/li&gt;
+&lt;li&gt;数据集托管&lt;/li&gt;
+&lt;li&gt;在线体验空间&lt;/li&gt;
+&lt;li&gt;开发者论坛&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="第三方适配"&gt;第三方适配
+&lt;/h3&gt;&lt;p&gt;Qwen3已经被主流AI开发框架广泛支持：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LangChain / LlamaIndex&lt;/li&gt;
+&lt;li&gt;vLLM / TGI（推理加速）&lt;/li&gt;
+&lt;li&gt;Ollama（本地部署）&lt;/li&gt;
+&lt;li&gt;OpenAI兼容API接口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&amp;amp;h=400&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="开源社区和开发者生态"
+&gt;&lt;/p&gt;
+&lt;h2 id="多模态能力不只是文字"&gt;多模态能力：不只是文字
+&lt;/h2&gt;&lt;p&gt;Qwen3的野心不止于文本，它还在多模态领域全面铺开：&lt;/p&gt;
+&lt;h3 id="qwen-vl视觉语言模型"&gt;Qwen-VL（视觉语言模型）
+&lt;/h3&gt;&lt;p&gt;能同时理解图片和文字。你可以给它一张照片，问它&amp;quot;这个电路板上哪里有问题&amp;quot;，它能准确定位并解释原因。在工业检测、医疗影像、自动驾驶等领域有广泛应用。&lt;/p&gt;
+&lt;h3 id="qwen-audio音频理解模型"&gt;Qwen-Audio（音频理解模型）
+&lt;/h3&gt;&lt;p&gt;能理解语音和各种声音。支持语音转文字、语音指令理解、音频内容分析等任务。&lt;/p&gt;
+&lt;h3 id="qwen-coder代码专项模型"&gt;Qwen-Coder（代码专项模型）
+&lt;/h3&gt;&lt;p&gt;专门针对编程优化的版本，在代码生成、代码补全、Bug修复等任务上表现优于通用模型。&lt;/p&gt;
+&lt;h2 id="实际部署方案"&gt;实际部署方案
+&lt;/h2&gt;&lt;p&gt;对于想要使用Qwen3的开发者，这里有几种主流的部署方式：&lt;/p&gt;
+&lt;h3 id="方案1本地部署用ollama"&gt;方案1：本地部署（用Ollama）
+&lt;/h3&gt;&lt;p&gt;最简单的方式，三行命令搞定：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 安装Ollama&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;curl -fsSL https://ollama.com/install.sh &lt;span class="p"&gt;|&lt;/span&gt; sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 下载并运行Qwen3-8B&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ollama run qwen3:8b
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 开始对话！&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;适合个人开发者和学习研究使用。8B模型需要至少16GB内存，如果你有一张显存16GB以上的显卡，体验会更流畅。&lt;/p&gt;
+&lt;h3 id="方案2阿里云api调用"&gt;方案2：阿里云API调用
+&lt;/h3&gt;&lt;p&gt;如果你不想自己搭环境，直接用阿里云百炼平台的API是最省事的：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;openai&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;OpenAI&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;client&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;OpenAI&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;api_key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;your-api-key&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;base_url&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;https://dashscope.aliyuncs.com/compatible-mode/v1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;response&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;client&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;chat&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;completions&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;create&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;qwen-max&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;messages&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[{&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;role&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;user&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;content&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;介绍一下你自己&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;}]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;choices&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;注意：阿里云百炼的API兼容OpenAI格式，迁移成本极低。&lt;/p&gt;
+&lt;h3 id="方案3私有化部署"&gt;方案3：私有化部署
+&lt;/h3&gt;&lt;p&gt;对于对数据安全要求高的企业，可以选择私有化部署：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用vLLM进行高性能推理部署&lt;/li&gt;
+&lt;li&gt;配合阿里云PAI平台进行模型微调&lt;/li&gt;
+&lt;li&gt;在企业内网GPU集群上运行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="国内企业使用案例"&gt;国内企业使用案例
+&lt;/h2&gt;&lt;p&gt;越来越多的国内企业选择Qwen3作为底层模型：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;金融行业&lt;/strong&gt;：某大型银行用Qwen3搭建了智能风控系统，日处理百万级风险评估&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;电商行业&lt;/strong&gt;：淘宝的AI客服和商品描述生成都基于Qwen模型&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;教育行业&lt;/strong&gt;：多家在线教育平台用Qwen3开发AI辅导老师&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;医疗行业&lt;/strong&gt;：辅助医生阅读病历、生成诊断报告初稿&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;政务服务&lt;/strong&gt;：多个城市的政务AI助手底层使用Qwen3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="与deepseek的竞争格局"&gt;与DeepSeek的竞争格局
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&amp;amp;h=400&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="中国AI大模型的竞争格局"
+&gt;&lt;/p&gt;
+&lt;p&gt;说到国产开源大模型，绕不开的另一个名字就是&lt;strong&gt;DeepSeek&lt;/strong&gt;。Qwen3和DeepSeek-V3之间的竞争，堪称2026年中国AI圈最精彩的&amp;quot;神仙打架&amp;quot;。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;对比维度&lt;/th&gt;
+&lt;th&gt;Qwen3&lt;/th&gt;
+&lt;th&gt;DeepSeek-V3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;背后公司&lt;/td&gt;
+&lt;td&gt;阿里巴巴&lt;/td&gt;
+&lt;td&gt;深度求索&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;模型矩阵&lt;/td&gt;
+&lt;td&gt;更全面（8款+）&lt;/td&gt;
+&lt;td&gt;集中几个尺寸&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中文能力&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;代码能力&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;多模态&lt;/td&gt;
+&lt;td&gt;VL + Audio + Coder&lt;/td&gt;
+&lt;td&gt;V3 + Coder&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;云服务生态&lt;/td&gt;
+&lt;td&gt;阿里云全家桶&lt;/td&gt;
+&lt;td&gt;第三方平台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;社区活跃度&lt;/td&gt;
+&lt;td&gt;高&lt;/td&gt;
+&lt;td&gt;极高&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;开源协议&lt;/td&gt;
+&lt;td&gt;Apache 2.0&lt;/td&gt;
+&lt;td&gt;MIT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;两者各有所长。简单来说：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果你要&lt;strong&gt;全方位的多模态能力 + 阿里云生态&lt;/strong&gt;，选Qwen3&lt;/li&gt;
+&lt;li&gt;如果你追求&lt;strong&gt;极致的性价比和推理能力&lt;/strong&gt;，选DeepSeek&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;好消息是，它们都是开源的，你可以都试试！&lt;/p&gt;
+&lt;h2 id="对国内ai生态的推动作用"&gt;对国内AI生态的推动作用
+&lt;/h2&gt;&lt;p&gt;Qwen3的意义不仅在于模型本身，更在于它对整个国内AI产业的推动：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;降低AI门槛&lt;/strong&gt;：中小企业和个人开发者不需要花巨资就能用上世界级的AI能力&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据主权&lt;/strong&gt;：私有化部署意味着敏感数据不需要出境，满足合规要求&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;人才培养&lt;/strong&gt;：大量开发者通过使用和微调Qwen3积累了实战经验&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;产业升级&lt;/strong&gt;：各行各业的AI应用落地速度大大加快&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;国际影响力&lt;/strong&gt;：Qwen在全球开源社区的存在感越来越强&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🌟 &lt;strong&gt;我的观点&lt;/strong&gt;：Qwen3代表了一种&amp;quot;中国特色&amp;quot;的AI发展路线——不跟美国公司比闭源模型的天花板，而是用开源的方式把AI的地板抬高，让更多人用得上、用得起。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="开发者如何快速上手"&gt;开发者如何快速上手？
+&lt;/h2&gt;&lt;p&gt;如果你是一个想入门大模型开发的程序员，这里是我推荐的学习路径：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第1步：体验&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;访问 &lt;a class="link" href="https://tongyi.aliyun.com" target="_blank" rel="noopener"
+&gt;tongyi.aliyun.com&lt;/a&gt; 在线体验通义千问&lt;/li&gt;
+&lt;li&gt;或者用Ollama在本地跑一个Qwen3-4B感受一下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;第2步：调用API&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;注册阿里云账号，开通百炼服务&lt;/li&gt;
+&lt;li&gt;用Python SDK写一个简单的对话程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;第3步：学习Prompt Engineering&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;了解如何写好提示词，让模型输出更好的结果&lt;/li&gt;
+&lt;li&gt;试试System Prompt、Few-shot等技巧&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;第4步：尝试微调&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在特定行业数据上微调Qwen3，让它成为你的&amp;quot;行业专家&amp;quot;&lt;/li&gt;
+&lt;li&gt;可以用阿里云PAI或者开源的LLaMA-Factory工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;第5步：构建应用&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用LangChain + Qwen3搭建一个RAG（检索增强生成）应用&lt;/li&gt;
+&lt;li&gt;或者开发一个AI Agent，让Qwen3成为你的&amp;quot;智能助手&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&amp;amp;h=400&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="开发者在使用AI工具编程"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;总结&lt;/strong&gt;：通义千问Qwen3是目前国产开源大模型中最全面、最易用、最有前途的选择之一。不管你是企业决策者还是个人开发者，都值得认真了解一下。在这个AI大爆发的时代，掌握一个靠谱的开源大模型，就像拥有了一把万能钥匙。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;你用过Qwen做过什么项目？或者你更看好Qwen还是DeepSeek？评论区一起聊聊！&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

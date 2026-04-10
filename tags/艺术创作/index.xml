@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>艺术创作 on 有鱼智界 | 森林有鱼</title><link>https://www.iyouyu.tech/tags/%E8%89%BA%E6%9C%AF%E5%88%9B%E4%BD%9C/</link><description>Recent content in 艺术创作 on 有鱼智界 | 森林有鱼</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.iyouyu.tech/tags/%E8%89%BA%E6%9C%AF%E5%88%9B%E4%BD%9C/index.xml" rel="self" type="application/rss+xml"/><item><title>Midjourney v7：AI绘画领域的艺术巅峰</title><link>https://www.iyouyu.tech/p/midjourney-v7/</link><pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.iyouyu.tech/p/midjourney-v7/</guid><description>&lt;img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&amp;h=600&amp;fit=crop&amp;crop=center" alt="Featured image of post Midjourney v7：AI绘画领域的艺术巅峰" /&gt;&lt;h2 id="这张图是人画的还是ai画的"&gt;这张图，是人画的还是AI画的？
+&lt;/h2&gt;&lt;p&gt;看看下面这个场景：一位身穿汉服的少女站在雨后的江南古镇，石板路上倒映着暖黄色的灯光，远处的拱桥在薄雾中若隐若现。画面的光影层次、衣物褶皱、头发丝的细节，甚至雨滴溅起的微小水花——你敢信这是AI用&lt;strong&gt;不到一分钟&lt;/strong&gt;生成的吗？&lt;/p&gt;
+&lt;p&gt;这就是&lt;strong&gt;Midjourney v7&lt;/strong&gt;的实力。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="AI生成的艺术作品质量已经达到了惊人的水平"
+&gt;&lt;/p&gt;
+&lt;p&gt;2026年初发布的Midjourney v7，把AI绘画的质量推到了一个新高度——&lt;strong&gt;很多专业设计师都坦言，光看成品图已经分不出是AI还是人画的了。&lt;/strong&gt; 这意味着什么？它又是怎么做到的？今天我们就来深度聊聊。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="从v1到v7一场惊人的进化"&gt;从v1到v7：一场惊人的进化
+&lt;/h2&gt;&lt;p&gt;先看看Midjourney这几年是怎么一路升级的：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;版本&lt;/th&gt;
+&lt;th&gt;发布时间&lt;/th&gt;
+&lt;th&gt;关键特点&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;v1&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2022年2月&lt;/td&gt;
+&lt;td&gt;概念验证，画面模糊抽象&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;v2&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2022年4月&lt;/td&gt;
+&lt;td&gt;稍微清晰了一点，但还是很&amp;quot;AI感&amp;quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;v3&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2022年7月&lt;/td&gt;
+&lt;td&gt;开始能画出像样的画了&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;v4&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2022年11月&lt;/td&gt;
+&lt;td&gt;质量飞跃！第一次让人惊叹&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;v5&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2023年3月&lt;/td&gt;
+&lt;td&gt;照片级真实感，人手不再是6根手指&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;v5.2&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2023年6月&lt;/td&gt;
+&lt;td&gt;更精细的美学控制&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;v6&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2023年12月&lt;/td&gt;
+&lt;td&gt;文字渲染、更好的Prompt理解&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;v6.1&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2024年8月&lt;/td&gt;
+&lt;td&gt;一致性和细节再升级&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;v7&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2026年1月&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;巅峰之作&lt;/strong&gt;：人物一致性、极致细节、完美文字&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这个进化速度有多夸张？&lt;strong&gt;v1到v7只用了不到4年&lt;/strong&gt;。如果你在2022年见过v1那些抽象模糊的图片，再看看v7的作品，你会感觉像是跨越了一个时代。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="创意设计正在被AI工具重新定义"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="v7核心升级到底强在哪"&gt;v7核心升级：到底强在哪？
+&lt;/h2&gt;&lt;h3 id="1-画质达到巅峰"&gt;1. 画质达到巅峰
+&lt;/h3&gt;&lt;p&gt;v7的默认输出分辨率提升到了2048×2048，而且支持高达4096×4096的超清输出。更重要的是——&lt;strong&gt;画面质感不再像&amp;quot;AI渲染&amp;quot;，而是有了真正的&amp;quot;艺术感&amp;quot;&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;光影、质感、景深、色彩过渡……每一个细节都经过精心优化。很多用户反馈，v7生成的图片直接可以用来做海报、封面，不需要后期处理。&lt;/p&gt;
+&lt;h3 id="2-人物一致性终于解决了"&gt;2. 人物一致性终于解决了
+&lt;/h3&gt;&lt;p&gt;之前AI画画最大的痛点之一：&lt;strong&gt;同一个角色，换个角度画就变了一个人。&lt;/strong&gt; v7通过新的Character Reference系统，终于解决了这个问题。&lt;/p&gt;
+&lt;p&gt;你可以：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;上传一张参考人物图&lt;/li&gt;
+&lt;li&gt;用&lt;code&gt;--cref&lt;/code&gt;参数指定参考&lt;/li&gt;
+&lt;li&gt;AI会在不同场景、不同角度保持人物的外貌一致性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这对做漫画、绘本、品牌IP的创作者来说是&lt;strong&gt;巨大的利好&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id="3-文字渲染精准可靠"&gt;3. 文字渲染精准可靠
+&lt;/h3&gt;&lt;p&gt;之前让AI在图片里写字？基本等于乱码。v7的文字渲染能力有了质的突破——&lt;strong&gt;英文几乎100%准确，中文也有了明显提升&lt;/strong&gt;。Logo设计、海报标题、产品包装上的文字都能直接生成了。&lt;/p&gt;
+&lt;h3 id="4-细节控制更精确"&gt;4. 细节控制更精确
+&lt;/h3&gt;&lt;p&gt;v7引入了更强大的风格和细节控制参数：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--style&lt;/code&gt;：支持更多预设风格&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--personalize&lt;/code&gt;：学习你的审美偏好&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--weird&lt;/code&gt;：控制创意/怪异程度&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--chaos&lt;/code&gt;：控制结果的随机性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这意味着你可以更精确地告诉AI&amp;quot;我到底想要什么&amp;quot;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="定价方案选哪个套餐"&gt;定价方案：选哪个套餐？
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;套餐&lt;/th&gt;
+&lt;th&gt;月费&lt;/th&gt;
+&lt;th&gt;Fast GPU时间&lt;/th&gt;
+&lt;th&gt;主要限制&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Basic&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$10&lt;/td&gt;
+&lt;td&gt;~3.3小时/月&lt;/td&gt;
+&lt;td&gt;够个人偶尔玩玩&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Standard&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$30&lt;/td&gt;
+&lt;td&gt;~15小时/月&lt;/td&gt;
+&lt;td&gt;适合重度个人用户&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Pro&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$60&lt;/td&gt;
+&lt;td&gt;~30小时/月&lt;/td&gt;
+&lt;td&gt;适合专业创作者&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Mega&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$120&lt;/td&gt;
+&lt;td&gt;~60小时/月&lt;/td&gt;
+&lt;td&gt;适合团队/商业用途&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;小建议&lt;/strong&gt;：新手先买Standard试一个月，如果每天都在用再升Pro。Basic的时长说实话不太够，3.3小时听着不少，但v7生成更慢，实际能出的图没那么多。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所有付费套餐都包含&lt;strong&gt;商业使用权&lt;/strong&gt;，生成的图片可以用于商业项目，这一点很重要。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="竞品对比midjourney-v7到底强不强"&gt;竞品对比：Midjourney v7到底强不强？
+&lt;/h2&gt;&lt;p&gt;AI绘画领域现在竞争激烈，我们来横向对比一下：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;特性&lt;/th&gt;
+&lt;th&gt;Midjourney v7&lt;/th&gt;
+&lt;th&gt;FLUX.1 Pro&lt;/th&gt;
+&lt;th&gt;DALL-E 3&lt;/th&gt;
+&lt;th&gt;SD 3.5&lt;/th&gt;
+&lt;th&gt;Leonardo AI&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;画质&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;人物一致性&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;文字渲染&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Prompt理解&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;生成速度&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;价格&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$10-120/月&lt;/td&gt;
+&lt;td&gt;API计费&lt;/td&gt;
+&lt;td&gt;ChatGPT Plus含&lt;/td&gt;
+&lt;td&gt;免费开源&lt;/td&gt;
+&lt;td&gt;$12-60/月&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;开源&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;部分开源&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;本地部署&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;总结一句话&lt;/strong&gt;：如果你追求&lt;strong&gt;最顶级的画面美感和艺术性&lt;/strong&gt;，Midjourney v7是目前的首选。如果你需要&lt;strong&gt;本地部署或定制化&lt;/strong&gt;，选Stable Diffusion或FLUX。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="prompt技巧教学怎么写出好的提示词"&gt;Prompt技巧教学：怎么写出好的提示词
+&lt;/h2&gt;&lt;p&gt;Midjourney的Prompt写作是一门学问。同样一句话，写法不同出来的图天差地别。这里分享几个核心技巧：&lt;/p&gt;
+&lt;h3 id="基本公式"&gt;基本公式
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[主体描述] + [场景/环境] + [风格/氛围] + [技术参数]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="示例对比"&gt;示例对比
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;普通Prompt：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A girl in a garden&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;优化后的Prompt：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A young woman in a flowing white dress walking through a sunlit Japanese garden, cherry blossoms falling, soft golden hour lighting, shallow depth of field, cinematic composition, film grain &amp;ndash;ar 16:9 &amp;ndash;v 7 &amp;ndash;style raw&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="通过精心构思的提示词可以生成令人惊叹的作品"
+&gt;&lt;/p&gt;
+&lt;h3 id="关键技巧"&gt;关键技巧
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;具体描述胜过抽象描述&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;❌ &amp;ldquo;beautiful landscape&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;✅ &amp;ldquo;misty mountain valley at dawn, pine trees, a winding river reflecting orange sky&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;加入摄影/绘画术语&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;shot on Hasselblad&amp;rdquo;、&amp;ldquo;35mm film&amp;rdquo;、&amp;ldquo;oil painting texture&amp;rdquo;、&amp;ldquo;watercolor wash&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;善用参考风格&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;in the style of Studio Ghibli&amp;rdquo;、&amp;ldquo;reminiscent of Blade Runner&amp;rdquo;、&amp;ldquo;Wes Anderson color palette&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;参数调校&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--ar 16:9&lt;/code&gt; 宽屏比例&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--chaos 30&lt;/code&gt; 增加创意随机性&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--stylize 750&lt;/code&gt; 提高艺术化程度&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--no text, watermark&lt;/code&gt; 排除不想要的元素&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用负面Prompt排除干扰&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--no blurry, low quality, distorted hands&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="实际应用案例"&gt;实际应用案例
+&lt;/h2&gt;&lt;p&gt;Midjourney v7已经在很多领域发挥了实际商业价值：&lt;/p&gt;
+&lt;h3 id="-游戏美术"&gt;🎮 游戏美术
+&lt;/h3&gt;&lt;p&gt;独立游戏开发者用Midjourney快速生成概念设计，节省了大量前期美术成本。一个人也能做出3A级别的视觉效果。&lt;/p&gt;
+&lt;h3 id="-电商产品图"&gt;🛒 电商产品图
+&lt;/h3&gt;&lt;p&gt;用AI生成产品场景图，成本从几千元一组降到了几乎为零。很多淘宝卖家已经在用Midjourney做主图了。&lt;/p&gt;
+&lt;h3 id="-广告创意"&gt;📢 广告创意
+&lt;/h3&gt;&lt;p&gt;广告公司用Midjourney快速出创意稿，和客户确认方向后再精修。效率提升了5-10倍。&lt;/p&gt;
+&lt;h3 id="-概念设计"&gt;🎨 概念设计
+&lt;/h3&gt;&lt;p&gt;建筑师、室内设计师用它做方案可视化，分分钟生成不同风格的效果图给甲方看。&lt;/p&gt;
+&lt;h3 id="-绘本和漫画"&gt;📚 绘本和漫画
+&lt;/h3&gt;&lt;p&gt;结合v7的人物一致性功能，个人创作者也能做出风格统一的绘本了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="AI在设计领域的应用越来越广泛"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="开源方案-vs-midjourney怎么选"&gt;开源方案 vs Midjourney：怎么选？
+&lt;/h2&gt;&lt;p&gt;这个问题很多人纠结，我帮你理清楚：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;选Midjourney的场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;追求&lt;strong&gt;最高画质和美感&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;不想折腾技术配置&lt;/li&gt;
+&lt;li&gt;需要商用且要稳定输出&lt;/li&gt;
+&lt;li&gt;预算充足（$30/月起）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;选开源方案（SD 3.5/FLUX）的场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有&lt;strong&gt;高端显卡&lt;/strong&gt;（至少12GB显存）&lt;/li&gt;
+&lt;li&gt;需要&lt;strong&gt;批量生成&lt;/strong&gt;且控制成本&lt;/li&gt;
+&lt;li&gt;需要&lt;strong&gt;深度定制&lt;/strong&gt;（训练自己的LoRA模型）&lt;/li&gt;
+&lt;li&gt;有隐私需求（数据不出本地）&lt;/li&gt;
+&lt;li&gt;想做AI绘画相关产品/服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;两者结合的场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用Midjourney做高质量参考图&lt;/li&gt;
+&lt;li&gt;用开源方案做批量生产&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="对设计行业从业者的影响"&gt;对设计行业从业者的影响
+&lt;/h2&gt;&lt;p&gt;这是一个敏感但不得不聊的话题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;被冲击最大的岗位：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;素材图库摄影师（Getty Images的股价已经说明一切）&lt;/li&gt;
+&lt;li&gt;初级插画师/插画外包&lt;/li&gt;
+&lt;li&gt;简单Banner设计&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;反而更吃香的岗位：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;高级艺术指导（AI是工具，审美是核心）&lt;/li&gt;
+&lt;li&gt;Prompt工程师/AI创意师（新职业）&lt;/li&gt;
+&lt;li&gt;品牌视觉设计师（需要整体把控能力）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个资深设计总监跟我说：&amp;ldquo;AI取代不了设计师，但&lt;strong&gt;会用AI的设计师会取代不会用AI的设计师&lt;/strong&gt;。&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这句话值得每一个设计从业者深思。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="新手快速上手指南"&gt;新手快速上手指南
+&lt;/h2&gt;&lt;p&gt;想现在就开始用Midjourney？按下面的步骤来：&lt;/p&gt;
+&lt;h3 id="第一步注册账号"&gt;第一步：注册账号
+&lt;/h3&gt;&lt;p&gt;访问 &lt;a class="link" href="https://midjourney.com" target="_blank" rel="noopener"
+&gt;midjourney.com&lt;/a&gt;，注册账号并选择一个套餐。&lt;/p&gt;
+&lt;h3 id="第二步进入创作界面"&gt;第二步：进入创作界面
+&lt;/h3&gt;&lt;p&gt;Midjourney v7已经支持网页端直接使用（不再强制使用Discord了！），界面更加友好。&lt;/p&gt;
+&lt;h3 id="第三步写你的第一个prompt"&gt;第三步：写你的第一个Prompt
+&lt;/h3&gt;&lt;p&gt;在输入框中写一句描述，比如：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A cozy coffee shop interior, warm lighting, bookshelves, rainy day outside the window, watercolor style &amp;ndash;ar 16:9 &amp;ndash;v 7&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="第四步等待生成"&gt;第四步：等待生成
+&lt;/h3&gt;&lt;p&gt;通常15-60秒就会出结果，一次生成4张备选图。&lt;/p&gt;
+&lt;h3 id="第五步选图和调整"&gt;第五步：选图和调整
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;U1-U4&lt;/strong&gt;：放大你喜欢的那张&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;V1-V4&lt;/strong&gt;：基于某张图做变体&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🔄&lt;/strong&gt;：重新生成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="第六步下载使用"&gt;第六步：下载使用
+&lt;/h3&gt;&lt;p&gt;选好图片后直接下载，商用套餐生成的图片可以直接用于商业项目。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="开始你的AI艺术创作之旅"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="写在最后"&gt;写在最后
+&lt;/h2&gt;&lt;p&gt;Midjourney v7代表了当前AI绘画的&lt;strong&gt;最高水平&lt;/strong&gt;，但它远不是终点。以现在这个进化速度，v8、v9会带来什么样的惊喜，真的很难想象。&lt;/p&gt;
+&lt;p&gt;对于普通用户来说，现在就是&lt;strong&gt;上车的最佳时机&lt;/strong&gt;。不管你是设计师、创作者、还是纯粹的艺术爱好者，花$10买个Basic套餐玩玩，你会发现一个全新的创作世界正在向你打开大门。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;一句话总结&lt;/strong&gt;：Midjourney v7让&amp;quot;人人都是艺术家&amp;quot;这句话，第一次变得不那么像口号了。&lt;/p&gt;
+&lt;/blockquote&gt;</description></item></channel></rss>

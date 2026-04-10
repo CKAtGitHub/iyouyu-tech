@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI语音 on 有鱼智界 | 森林有鱼</title><link>https://www.iyouyu.tech/tags/ai%E8%AF%AD%E9%9F%B3/</link><description>Recent content in AI语音 on 有鱼智界 | 森林有鱼</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.iyouyu.tech/tags/ai%E8%AF%AD%E9%9F%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>ElevenLabs：让AI说出最像人类的声音</title><link>https://www.iyouyu.tech/p/elevenlabs/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.iyouyu.tech/p/elevenlabs/</guid><description>&lt;img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&amp;h=600&amp;fit=crop&amp;crop=center" alt="Featured image of post ElevenLabs：让AI说出最像人类的声音" /&gt;&lt;p&gt;闭上眼睛听一段语音——温柔的女声在讲述一个睡前故事，语调起伏自然，偶尔还会轻轻叹气，甚至能听出嘴角微微上扬的笑意。如果不提前告诉你，&lt;strong&gt;你根本分不清这是AI还是真人在说话&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这就是ElevenLabs的实力。&lt;/p&gt;
+&lt;p&gt;在AI语音合成这个赛道上，ElevenLabs已经不是&amp;quot;领先一点点&amp;quot;的水平了——它是&lt;strong&gt;断档式领先&lt;/strong&gt;。当其他TTS工具还在解决&amp;quot;听起来不像机器人&amp;quot;的问题时，ElevenLabs已经在研究怎么让AI表达&amp;quot;微妙的情感变化&amp;quot;了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1589903308904-1010c2294adc?w=800&amp;amp;h=400&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="专业录音棚里的麦克风"
+&gt;&lt;/p&gt;
+&lt;h2 id="elevenlabs是什么"&gt;ElevenLabs是什么？
+&lt;/h2&gt;&lt;p&gt;ElevenLabs成立于2022年，由两位前Google工程师创立，总部位于纽约。公司的使命很明确：&lt;strong&gt;让AI的声音和人类一模一样&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;短短几年时间，ElevenLabs就从一个小众技术工具成长为AI语音领域的绝对标杆。2025年完成了超过1亿美元的融资，估值突破30亿美元，用户覆盖全球180多个国家。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;一句话介绍&lt;/strong&gt;：ElevenLabs是目前全球最好的AI语音合成平台，没有之一。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="从小众工具到行业标杆"&gt;从小众工具到行业标杆
+&lt;/h2&gt;&lt;p&gt;ElevenLabs的发展历程堪称教科书式的增长：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2022年&lt;/strong&gt;：成立，推出首个TTS API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2023年&lt;/strong&gt;：声音克隆功能上线，引发社交媒体病毒式传播&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2024年&lt;/strong&gt;：推出多语言实时翻译配音，用户突破100万&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2025年&lt;/strong&gt;：与IBM合作进入企业市场，推出AI有声书平台&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2026年&lt;/strong&gt;：音色库突破5000种，成为好莱坞多家制片厂的合作伙伴&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=800&amp;amp;h=400&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="AI语音技术的发展时间线"
+&gt;&lt;/p&gt;
+&lt;h2 id="核心能力凭什么这么强"&gt;核心能力：凭什么这么强？
+&lt;/h2&gt;&lt;h3 id="5000音色库"&gt;5000+音色库
+&lt;/h3&gt;&lt;p&gt;ElevenLabs拥有超过5000种预设音色，从沉稳的男性旁白到活泼的少女声线，从英式绅士到东京腔日语，应有尽有。每种音色都经过精心调校，听起来自然、真实、有温度。&lt;/p&gt;
+&lt;h3 id="70语言支持"&gt;70+语言支持
+&lt;/h3&gt;&lt;p&gt;支持超过70种语言和方言，而且不是那种&amp;quot;虽然能说但听着很奇怪&amp;quot;的支持——每种语言都有地道的母语级发音。中文、日文、韩文的效果尤其出色。&lt;/p&gt;
+&lt;h3 id="毫秒级延迟"&gt;毫秒级延迟
+&lt;/h3&gt;&lt;p&gt;实时语音合成的延迟低至200毫秒以内，这意味着它可以用在需要实时交互的场景，比如AI客服、语音助手、直播互动等。&lt;/p&gt;
+&lt;h3 id="情感表达"&gt;情感表达
+&lt;/h3&gt;&lt;p&gt;这是ElevenLabs最让人惊艳的地方——它能让AI说出&lt;strong&gt;带感情的话&lt;/strong&gt;。不是简单的语速快慢变化，而是真正的情感波动：开心、悲伤、惊讶、犹豫、兴奋……你甚至可以在同一段话中让AI表现出情绪的转变。&lt;/p&gt;
+&lt;h2 id="产品线全览"&gt;产品线全览
+&lt;/h2&gt;&lt;p&gt;ElevenLabs不只是一个TTS工具，它已经发展成了一个完整的语音AI平台：&lt;/p&gt;
+&lt;h3 id="1-语音合成text-to-speech"&gt;1. 语音合成（Text-to-Speech）
+&lt;/h3&gt;&lt;p&gt;核心产品，输入文字即可生成高质量语音。支持SSML标记控制语速、停顿、强调等。&lt;/p&gt;
+&lt;h3 id="2-声音克隆voice-cloning"&gt;2. 声音克隆（Voice Cloning）
+&lt;/h3&gt;&lt;p&gt;上传一段30秒以上的音频，AI就能学会这个人的声音特征，之后可以用这个声音说任何话。精度之高，连说话人本人都很难分辨。&lt;/p&gt;
+&lt;h3 id="3-ai配音dubbing"&gt;3. AI配音（Dubbing）
+&lt;/h3&gt;&lt;p&gt;上传视频，AI自动识别语音内容，翻译成目标语言，再用匹配的声音重新配音。还能自动对口型！&lt;/p&gt;
+&lt;h3 id="4-实时语音翻译"&gt;4. 实时语音翻译
+&lt;/h3&gt;&lt;p&gt;说中文，对方听到英文——而且是用你自己的声音说的英文。这个功能在跨国会议和国际直播中非常实用。&lt;/p&gt;
+&lt;h3 id="5-ai有声书平台"&gt;5. AI有声书平台
+&lt;/h3&gt;&lt;p&gt;与出版商合作，用AI语音为大量图书制作有声版本，成本仅为真人录制的十分之一。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&amp;amp;h=400&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="声波可视化效果"
+&gt;&lt;/p&gt;
+&lt;h2 id="定价方案"&gt;定价方案
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;方案&lt;/th&gt;
+&lt;th&gt;月价格&lt;/th&gt;
+&lt;th&gt;字符额度&lt;/th&gt;
+&lt;th&gt;声音克隆&lt;/th&gt;
+&lt;th&gt;商用授权&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Free&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$0&lt;/td&gt;
+&lt;td&gt;10,000字符&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Starter&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$5&lt;/td&gt;
+&lt;td&gt;30,000字符&lt;/td&gt;
+&lt;td&gt;最多10个&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Creator&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$22&lt;/td&gt;
+&lt;td&gt;100,000字符&lt;/td&gt;
+&lt;td&gt;最多30个&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Pro&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$99&lt;/td&gt;
+&lt;td&gt;500,000字符&lt;/td&gt;
+&lt;td&gt;无限制&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Scale&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$330&lt;/td&gt;
+&lt;td&gt;2,000,000字符&lt;/td&gt;
+&lt;td&gt;无限制&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Enterprise&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;定制&lt;/td&gt;
+&lt;td&gt;定制&lt;/td&gt;
+&lt;td&gt;定制&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💰 &lt;strong&gt;性价比点评&lt;/strong&gt;：对于个人创作者来说，$22的Creator方案就够用了。如果你做有声书或者短视频配音，Pro方案的50万字符额度很香。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="和竞品对比"&gt;和竞品对比
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;产品&lt;/th&gt;
+&lt;th&gt;音质评分&lt;/th&gt;
+&lt;th&gt;语言数量&lt;/th&gt;
+&lt;th&gt;声音克隆&lt;/th&gt;
+&lt;th&gt;情感表达&lt;/th&gt;
+&lt;th&gt;中文效果&lt;/th&gt;
+&lt;th&gt;价格&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;ElevenLabs&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;70+&lt;/td&gt;
+&lt;td&gt;✅ 极佳&lt;/td&gt;
+&lt;td&gt;✅ 极佳&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;$5起&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Fish Audio&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;✅ 好&lt;/td&gt;
+&lt;td&gt;✅ 好&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;免费+付费&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Google TTS&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;50+&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;按量计费&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Microsoft Edge TTS&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;40+&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;有限&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;免费&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;百度语音&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;中英&lt;/td&gt;
+&lt;td&gt;✅ 一般&lt;/td&gt;
+&lt;td&gt;有限&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;按量计费&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="应用场景谁在用elevenlabs"&gt;应用场景：谁在用ElevenLabs？
+&lt;/h2&gt;&lt;h3 id="有声书制作-"&gt;有声书制作 📚
+&lt;/h3&gt;&lt;p&gt;传统有声书录制需要专业配音演员在录音棚里录好几天，成本动辄几万元。用ElevenLabs，一本10万字的书可以在几个小时内完成配音，成本不到原来的十分之一。&lt;/p&gt;
+&lt;h3 id="短视频配音-"&gt;短视频配音 🎬
+&lt;/h3&gt;&lt;p&gt;做短视频的创作者是ElevenLabs的重度用户。不管是抖音、B站还是YouTube，越来越多的视频旁白都是AI生成的——而观众根本听不出来。&lt;/p&gt;
+&lt;h3 id="播客制作-"&gt;播客制作 🎙️
+&lt;/h3&gt;&lt;p&gt;有些播客创作者用ElevenLabs克隆自己的声音，然后用AI来读稿件，省去了大量录音和后期的时间。&lt;/p&gt;
+&lt;h3 id="客服系统-"&gt;客服系统 📞
+&lt;/h3&gt;&lt;p&gt;企业客服场景中，ElevenLabs的低延迟和自然音质让AI客服的体验大幅提升。用户常常聊了好几分钟才意识到对面是AI。&lt;/p&gt;
+&lt;h3 id="游戏角色配音-"&gt;游戏角色配音 🎮
+&lt;/h3&gt;&lt;p&gt;游戏开发商用ElevenLabs为NPC角色配音，每个角色都有独特的声音和说话风格，大大降低了开发成本。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=800&amp;amp;h=400&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="游戏开发中的AI配音应用"
+&gt;&lt;/p&gt;
+&lt;h2 id="与ibm合作进军企业ai-agent"&gt;与IBM合作：进军企业AI Agent
+&lt;/h2&gt;&lt;p&gt;2025年，ElevenLabs和IBM达成了战略合作，将其TTS技术集成到IBM的企业AI Agent解决方案中。这意味着企业的AI助手不再是冷冰冰的合成音，而是拥有温暖、自然、甚至个性化的声音。&lt;/p&gt;
+&lt;p&gt;这次合作的意义在于——&lt;strong&gt;AI Agent不光要能干活，还要能&amp;quot;好好说话&amp;quot;&lt;/strong&gt;。在客户服务、内部助理、培训教育等场景中，一个声音自然的AI能大幅提升用户体验和信任度。&lt;/p&gt;
+&lt;h2 id="声音克隆的伦理争议"&gt;声音克隆的伦理争议
+&lt;/h2&gt;&lt;p&gt;ElevenLabs的声音克隆技术虽然厉害，但也带来了不少争议：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;安全隐患&lt;/strong&gt;：有人用克隆的声音进行电话诈骗、伪造名人音频。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;为了应对这些问题，ElevenLabs采取了以下措施：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;身份验证&lt;/strong&gt;：克隆声音需要上传身份证明，确认你有权使用该声音&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;水印技术&lt;/strong&gt;：所有AI生成的音频都内嵌了不可听见的数字水印&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;滥用检测&lt;/strong&gt;：AI系统会自动检测可能被用于欺诈的音频内容&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用条款&lt;/strong&gt;：明确禁止将技术用于欺骗、诈骗等非法用途&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不过说实话，技术的滥用是防不胜防的。这不仅仅是ElevenLabs一家公司的问题，而是整个AI语音行业都需要面对的挑战。&lt;/p&gt;
+&lt;h2 id="对配音行业的冲击"&gt;对配音行业的冲击
+&lt;/h2&gt;&lt;p&gt;不可否认，AI语音合成正在对传统配音行业造成巨大冲击：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;低端配音市场&lt;/strong&gt;基本被AI取代——广告旁白、有声书朗读、企业宣传片等标准化内容&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中端市场&lt;/strong&gt;受到严重挤压——越来越多的客户选择AI配音，因为便宜又快&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高端市场&lt;/strong&gt;暂时安全——顶级配音演员的表演力、创造力和即兴发挥能力还是AI无法企及的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🎤 &lt;strong&gt;配音演员的出路&lt;/strong&gt;：与其对抗AI，不如拥抱AI。很多配音演员已经开始用ElevenLabs克隆自己的声音来接更多的活——你只需要录制一次，之后AI帮你&amp;quot;分身&amp;quot;工作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="实际使用教程"&gt;实际使用教程
+&lt;/h2&gt;&lt;p&gt;想要上手ElevenLabs？跟着这几步来：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第1步&lt;/strong&gt;：访问 &lt;a class="link" href="https://elevenlabs.io" target="_blank" rel="noopener"
+&gt;elevenlabs.io&lt;/a&gt; 注册账号&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第2步&lt;/strong&gt;：在左侧菜单选择&amp;quot;Text to Speech&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第3步&lt;/strong&gt;：在文本框输入你想转换的文字&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第4步&lt;/strong&gt;：从音色库中选择一个声音（推荐先试试&amp;quot;Rachel&amp;quot;和&amp;quot;Adam&amp;quot;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第5步&lt;/strong&gt;：点击&amp;quot;Generate&amp;quot;按钮，等待几秒&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第6步&lt;/strong&gt;：试听效果，满意就下载MP3文件&lt;/p&gt;
+&lt;p&gt;如果想克隆自己的声音：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;进入&amp;quot;Voice Lab&amp;quot;&lt;/li&gt;
+&lt;li&gt;点击&amp;quot;Add Voice&amp;quot; → &amp;ldquo;Instant Voice Cloning&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;上传至少30秒的清晰音频&lt;/li&gt;
+&lt;li&gt;等待几分钟，你的专属AI声音就创建好了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&amp;amp;h=400&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="使用ElevenLabs创建AI语音"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;总结&lt;/strong&gt;：ElevenLabs把AI语音合成的质量推到了一个全新的高度。无论你是内容创作者、开发者还是企业用户，这个工具都值得你花点时间去体验一下。当然，也别忘了——&lt;strong&gt;技术是中性的，关键看用它的人。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;你试过用AI语音做什么有意思的事情吗？评论区见！&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

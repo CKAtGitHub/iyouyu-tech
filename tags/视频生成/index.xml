@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>视频生成 on 有鱼智界 | 森林有鱼</title><link>https://www.iyouyu.tech/tags/%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90/</link><description>Recent content in 视频生成 on 有鱼智界 | 森林有鱼</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.iyouyu.tech/tags/%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90/index.xml" rel="self" type="application/rss+xml"/><item><title>Sora：OpenAI如何用AI重新定义视频创作</title><link>https://www.iyouyu.tech/p/sora-ai-video/</link><pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.iyouyu.tech/p/sora-ai-video/</guid><description>&lt;img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&amp;h=600&amp;fit=crop&amp;crop=center" alt="Featured image of post Sora：OpenAI如何用AI重新定义视频创作" /&gt;&lt;h2 id="一段文字一部电影这不再是未来"&gt;一段文字，一部电影：这不再是未来
+&lt;/h2&gt;&lt;p&gt;&amp;ldquo;一位时尚女性走在充满温暖霓虹灯和动画城市标牌的东京街道上。她穿着黑色皮夹克、红色长裙和黑色靴子，拎着一个黑色手提包。她戴着太阳镜，涂着红色口红，自信而随意地走着。街道潮湿而有反光，在彩色灯光的映照下形成镜面效果。&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;你能想象吗？这段话交给AI，&lt;strong&gt;20秒后就变成了一段几乎以假乱真的视频&lt;/strong&gt;。镜头跟随女性缓缓移动，霓虹灯在湿漉漉的地面上反射出绚丽的光芒，路人自然地走过——没有一个像素是真实拍摄的。&lt;/p&gt;
+&lt;p&gt;这就是&lt;strong&gt;Sora&lt;/strong&gt;，OpenAI在2024年发布的AI视频生成模型。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="电影制作与视频创作"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="sora是什么"&gt;Sora是什么？
+&lt;/h2&gt;&lt;p&gt;Sora是OpenAI推出的&lt;strong&gt;文本生成视频（Text-to-Video）模型&lt;/strong&gt;，也是目前公认的最强AI视频生成工具之一。&lt;/p&gt;
+&lt;p&gt;简单来说，你只需要用文字描述你想要的画面，Sora就能帮你生成一段高质量的视频。不需要摄像机、不需要演员、不需要后期制作——&lt;strong&gt;一段描述就是你的整个拍摄团队&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;Sora这个名字来自日语&amp;quot;空（そら）&amp;quot;，意为天空，象征着无限的创造可能性。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="sora能做什么核心能力一览"&gt;Sora能做什么？核心能力一览
+&lt;/h2&gt;&lt;p&gt;Sora的能力远不止&amp;quot;文字变视频&amp;quot;这么简单：&lt;/p&gt;
+&lt;h3 id="基础能力"&gt;基础能力
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;文字生成视频&lt;/strong&gt;：输入文字描述，生成最长20秒的视频&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;图片生成视频&lt;/strong&gt;：上传一张图片，让它&amp;quot;动&amp;quot;起来&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;视频延展&lt;/strong&gt;：把已有视频向前或向后延长&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;视频混合&lt;/strong&gt;：将两段不同视频平滑融合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="技术参数"&gt;技术参数
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分辨率&lt;/strong&gt;：最高1080p（1920×1080）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;时长&lt;/strong&gt;：最长20秒&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;宽高比&lt;/strong&gt;：支持16:9、9:16、1:1等多种比例&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;帧率&lt;/strong&gt;：流畅的24fps或更高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🎬 最让人惊叹的是Sora对物理规律的理解。水的流动、光的折射、物体的碰撞——它都能模拟得非常真实，这在之前的AI视频工具中几乎是不可能的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="AI生成的创意视觉"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="sora-vs-竞品谁才是ai视频之王"&gt;Sora vs 竞品：谁才是AI视频之王？
+&lt;/h2&gt;&lt;p&gt;2025-2026年，AI视频生成赛道已经非常拥挤了。来看看Sora和主要竞品的对比：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;特性&lt;/th&gt;
+&lt;th&gt;Sora（OpenAI）&lt;/th&gt;
+&lt;th&gt;Runway Gen-4&lt;/th&gt;
+&lt;th&gt;Kling 2.0（快影）&lt;/th&gt;
+&lt;th&gt;Pika 2.0&lt;/th&gt;
+&lt;th&gt;Veo 2（Google）&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;最长时长&lt;/td&gt;
+&lt;td&gt;20秒&lt;/td&gt;
+&lt;td&gt;40秒&lt;/td&gt;
+&lt;td&gt;10分钟&lt;/td&gt;
+&lt;td&gt;10秒&lt;/td&gt;
+&lt;td&gt;8秒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;最高分辨率&lt;/td&gt;
+&lt;td&gt;1080p&lt;/td&gt;
+&lt;td&gt;4K&lt;/td&gt;
+&lt;td&gt;1080p&lt;/td&gt;
+&lt;td&gt;1080p&lt;/td&gt;
+&lt;td&gt;4K&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;物理模拟&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;角色一致性&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;文字理解力&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;价格&lt;/td&gt;
+&lt;td&gt;$20/月起&lt;/td&gt;
+&lt;td&gt;$15/月起&lt;/td&gt;
+&lt;td&gt;免费/付费&lt;/td&gt;
+&lt;td&gt;$10/月起&lt;/td&gt;
+&lt;td&gt;$20/月起&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中文支持&lt;/td&gt;
+&lt;td&gt;一般&lt;/td&gt;
+&lt;td&gt;一般&lt;/td&gt;
+&lt;td&gt;优秀&lt;/td&gt;
+&lt;td&gt;一般&lt;/td&gt;
+&lt;td&gt;一般&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 小结：Sora的优势在于&lt;strong&gt;物理模拟的真实感和对文字描述的理解力&lt;/strong&gt;，但在视频时长上不如Kling，在分辨率上不如Runway Gen-4。没有绝对的王者，要根据你的具体需求选择。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="技术原理sora是怎么做到的"&gt;技术原理：Sora是怎么做到的？
+&lt;/h2&gt;&lt;p&gt;不用担心，我会用最通俗的语言来解释。&lt;/p&gt;
+&lt;h3 id="核心架构扩散模型--transformer"&gt;核心架构：扩散模型 + Transformer
+&lt;/h3&gt;&lt;p&gt;Sora的技术基础可以理解为两个关键技术的融合：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 扩散模型（Diffusion Model）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;想象你把一张照片不断加噪声，最终变成纯噪声&lt;/li&gt;
+&lt;li&gt;然后AI学会了&amp;quot;逆过程&amp;quot;——从纯噪声中一步步还原出清晰画面&lt;/li&gt;
+&lt;li&gt;Sora把这个过程从2D图片扩展到了3D视频&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Transformer架构&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;和ChatGPT的底层架构一样，Transformer擅长处理序列数据&lt;/li&gt;
+&lt;li&gt;Sora把视频拆分成一个个小块（patches），像处理文字token一样处理视频&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;3. 时空补丁（Spacetime Patches）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sora将视频分割为3D的小方块（不只是平面的像素块）&lt;/li&gt;
+&lt;li&gt;每个小方块同时包含空间信息和时间信息&lt;/li&gt;
+&lt;li&gt;这让Sora能&amp;quot;理解&amp;quot;画面中物体的运动轨迹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🧠 通俗比喻：如果说图片生成AI是&amp;quot;画家&amp;quot;，那Sora就是&amp;quot;导演&amp;quot;——它不只画一帧画面，它理解画面中的物体应该怎么动、光影应该怎么变、故事应该怎么发展。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="视频编辑与AI技术"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="定价方案怎么用花多少钱"&gt;定价方案：怎么用、花多少钱？
+&lt;/h2&gt;&lt;p&gt;Sora目前通过ChatGPT订阅使用，具体方案如下：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;方案&lt;/th&gt;
+&lt;th&gt;价格&lt;/th&gt;
+&lt;th&gt;视频额度&lt;/th&gt;
+&lt;th&gt;分辨率&lt;/th&gt;
+&lt;th&gt;时长&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ChatGPT Plus&lt;/td&gt;
+&lt;td&gt;$20/月&lt;/td&gt;
+&lt;td&gt;50个视频/月&lt;/td&gt;
+&lt;td&gt;最高720p&lt;/td&gt;
+&lt;td&gt;最长5秒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ChatGPT Pro&lt;/td&gt;
+&lt;td&gt;$200/月&lt;/td&gt;
+&lt;td&gt;500个视频/月&lt;/td&gt;
+&lt;td&gt;最高1080p&lt;/td&gt;
+&lt;td&gt;最长20秒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ChatGPT Pro（无水印）&lt;/td&gt;
+&lt;td&gt;$200/月&lt;/td&gt;
+&lt;td&gt;含无水印下载&lt;/td&gt;
+&lt;td&gt;1080p&lt;/td&gt;
+&lt;td&gt;20秒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;对于大多数人来说，&lt;strong&gt;Plus方案就够尝鲜了&lt;/strong&gt;。如果你是内容创作者需要大量使用，Pro方案的性价比更高。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="实际应用场景"&gt;实际应用场景
+&lt;/h2&gt;&lt;p&gt;Sora已经开始在多个领域展现出商业价值：&lt;/p&gt;
+&lt;h3 id="1-社交媒体内容创作"&gt;1. 社交媒体内容创作
+&lt;/h3&gt;&lt;p&gt;短视频创作者不再需要出门拍摄。输入一段描述，几分钟就能生成一条吸引眼球的短视频。&lt;/p&gt;
+&lt;h3 id="2-广告与营销"&gt;2. 广告与营销
+&lt;/h3&gt;&lt;p&gt;小企业也能制作出&amp;quot;大片级&amp;quot;的广告视频。以前需要数万元拍摄成本的30秒广告，现在可能只需要$20和一段好的文案。&lt;/p&gt;
+&lt;h3 id="3-电影与动画预览"&gt;3. 电影与动画预览
+&lt;/h3&gt;&lt;p&gt;导演可以快速生成&amp;quot;概念视频&amp;quot;来验证创意。在真正投入大量资金拍摄之前，先用AI看看效果。&lt;/p&gt;
+&lt;h3 id="4-教育和培训"&gt;4. 教育和培训
+&lt;/h3&gt;&lt;p&gt;制作教学视频变得无比简单。想演示一个化学反应过程？一段文字描述就搞定了。&lt;/p&gt;
+&lt;h3 id="5-游戏和元宇宙"&gt;5. 游戏和元宇宙
+&lt;/h3&gt;&lt;p&gt;快速生成游戏场景的预览视频，帮助设计师验证环境氛围。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="内容创作与社交媒体"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="当前的局限性sora还不完美"&gt;当前的局限性：Sora还不完美
+&lt;/h2&gt;&lt;p&gt;虽然Sora很惊艳，但我们也要客观看待它的不足：&lt;/p&gt;
+&lt;h3 id="还不太行的地方"&gt;还不太行的地方
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;手指和手部&lt;/strong&gt;：还是会偶尔出现多余的手指或奇怪的手势（不过比一年前好多了）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;长视频一致性&lt;/strong&gt;：20秒内没问题，但如果要生成更长的故事，角色和场景容易&amp;quot;跑偏&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;精确的文字渲染&lt;/strong&gt;：视频中出现的文字（比如招牌、书籍）经常是乱码&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;复杂的物理交互&lt;/strong&gt;：简单的物理效果很好，但复杂的多物体碰撞还是会穿模&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;人物表情控制&lt;/strong&gt;：微妙的面部表情还做不到完全自然&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="使用限制"&gt;使用限制
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;不能生成真实人物的肖像&lt;/li&gt;
+&lt;li&gt;有内容安全审核，不允许生成暴力、色情等内容&lt;/li&gt;
+&lt;li&gt;每月生成额度有限&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ 重要提醒：AI生成的视频在商用时可能涉及版权和伦理问题，使用前建议了解相关法规。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="sora对视频创作行业的影响"&gt;Sora对视频创作行业的影响
+&lt;/h2&gt;&lt;p&gt;Sora的出现正在重塑整个视频创作行业：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;短期影响&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;降低了视频创作的门槛，个人也能做出专业级内容&lt;/li&gt;
+&lt;li&gt;模板化、重复性的视频制作工作将被大量替代&lt;/li&gt;
+&lt;li&gt;视频素材库行业面临巨大冲击&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;长期影响&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;文字即视频&amp;quot;可能成为新的内容创作范式&lt;/li&gt;
+&lt;li&gt;导演和编剧的核心价值将从&amp;quot;执行&amp;quot;转向&amp;quot;创意&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;视频制作的民主化将催生全新的内容生态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💬 有人说Sora是&amp;quot;视频创作的iPhone时刻&amp;quot;——就像iPhone让人人都能拍照一样，Sora让人人都能&amp;quot;拍电影&amp;quot;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="怎么开始使用sora"&gt;怎么开始使用Sora？
+&lt;/h2&gt;&lt;h3 id="第一步订阅chatgpt"&gt;第一步：订阅ChatGPT
+&lt;/h3&gt;&lt;p&gt;访问 &lt;a class="link" href="https://chat.openai.com" target="_blank" rel="noopener"
+&gt;chat.openai.com&lt;/a&gt;，注册账号并订阅ChatGPT Plus（$20/月）或Pro（$200/月）。&lt;/p&gt;
+&lt;h3 id="第二步进入sora"&gt;第二步：进入Sora
+&lt;/h3&gt;&lt;p&gt;在ChatGPT中找到Sora入口，或直接访问 &lt;a class="link" href="https://sora.com" target="_blank" rel="noopener"
+&gt;sora.com&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id="第三步写好你的提示词"&gt;第三步：写好你的提示词
+&lt;/h3&gt;&lt;p&gt;提示词的质量决定了视频的质量。一些写好提示词的技巧：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;描述具体场景&lt;/strong&gt;：不要说&amp;quot;一个人在走路&amp;quot;，要说&amp;quot;一位穿着蓝色西装的中年男性在雨中的东京新宿街头撑伞行走&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;说明镜头运动&lt;/strong&gt;：加入&amp;quot;缓慢推近&amp;quot;、&amp;ldquo;环绕拍摄&amp;rdquo;、&amp;ldquo;俯瞰视角&amp;quot;等描述&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;指定风格&lt;/strong&gt;：可以说&amp;quot;电影级色调&amp;rdquo;、&amp;ldquo;赛博朋克风格&amp;rdquo;、&amp;ldquo;吉卜力动画风&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;添加细节&lt;/strong&gt;：光影效果、天气、时间、氛围&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="第四步生成和调整"&gt;第四步：生成和调整
+&lt;/h3&gt;&lt;p&gt;点击生成后等待几分钟，查看结果。不满意可以修改提示词重新生成，或使用编辑功能微调。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.unsplash.com/photo-1542744094-24638eff58bb?w=800&amp;amp;h=500&amp;amp;fit=crop&amp;amp;crop=center"
+loading="lazy"
+alt="创意工作流程"
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="总结sora代表了什么"&gt;总结：Sora代表了什么？
+&lt;/h2&gt;&lt;p&gt;Sora不只是一个工具，它代表了内容创作的一次范式转移：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;从&amp;quot;拍&amp;quot;到&amp;quot;写&amp;quot;&lt;/strong&gt;：视频创作的核心从摄影技术变成了文字描述能力&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;从&amp;quot;贵&amp;quot;到&amp;quot;便宜&amp;quot;&lt;/strong&gt;：专业级视频不再需要专业级预算&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;从&amp;quot;慢&amp;quot;到&amp;quot;快&amp;quot;&lt;/strong&gt;：以前需要几天完成的视频，现在几分钟就能搞定&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;从&amp;quot;少数人&amp;quot;到&amp;quot;所有人&amp;quot;&lt;/strong&gt;：视频创作的门槛被极大降低&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;当然，AI视频目前还无法完全替代真实拍摄，尤其是在需要真实人物表演、精确品牌呈现的场景中。但作为创作者的&amp;quot;超级工具&amp;quot;，Sora已经足够让人兴奋了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如果你是内容创作者，现在就是尝试AI视频的最佳时机。&lt;/strong&gt; 不管你是用Sora还是其他工具，早一步掌握AI视频创作，就是早一步抢占未来的内容赛道。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;如果你觉得这篇文章有帮助，欢迎分享给更多人。关注我们，获取更多AI前沿资讯。&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
